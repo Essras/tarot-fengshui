@@ -6,12 +6,8 @@ import { FloatingDeck } from './components/FloatingDeck';
 import { Card } from './components/Card';
 import { InterpretationSheet } from './components/InterpretationSheet';
 import { MenuDrawer } from './components/MenuDrawer';
+import { SpreadSelectionDrawer } from './components/SpreadSelectionDrawer';
 import tarotData from './data/tarot-deck.json';
-
-const POSITION_LABELS = {
-  th: ['อดีต', 'ปัจจุบัน', 'อนาคต'],
-  en: ['Past', 'Present', 'Future'],
-};
 
 function MainApp() {
   const { lang, t, toggleLang } = useTranslation();
@@ -21,24 +17,24 @@ function MainApp() {
   const [selectedCard, setSelectedCard] = useState(null);
   const [isSheetOpen, setIsSheetOpen] = useState(false);
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const [isSpreadMenuOpen, setIsSpreadMenuOpen] = useState(false);
+  const [activeSpread, setActiveSpread] = useState(null);
   const [readingMode, setReadingMode] = useState('mystical');
+  const [facingDirection, setFacingDirection] = useState('N');
 
-  const drawDaily = useCallback(() => {
-    const randomIndex = Math.floor(Math.random() * tarotData.major.length);
-    const card = tarotData.major[randomIndex];
-    setDrawnCards([card]);
-    setRevealedIndex(-1);
-    setIsSheetOpen(false);
-    setView('daily');
-  }, []);
-
-  const drawSpread = useCallback(() => {
-    const shuffled = [...tarotData.major].sort(() => 0.5 - Math.random());
-    const cards = shuffled.slice(0, 3);
+  const drawSpread = useCallback((spread) => {
+    setActiveSpread(spread);
+    setIsSpreadMenuOpen(false);
+    
+    // Shuffle the entire deck ( মেজর + Minor ) and pick exactly spread.cardCount cards
+    const fullDeck = [...tarotData.major, ...(tarotData.minor || [])];
+    const shuffled = fullDeck.sort(() => 0.5 - Math.random());
+    const cards = shuffled.slice(0, spread.cardCount);
+    
     setDrawnCards(cards);
     setRevealedIndex(-1);
     setIsSheetOpen(false);
-    setView('spread');
+    setView('spread'); // 'daily' is no longer needed separate view, 'spread' handles all
   }, []);
 
   const handleCardReveal = useCallback((index) => {
@@ -63,6 +59,8 @@ function MainApp() {
     setRevealedIndex(-1);
     setSelectedCard(null);
     setIsSheetOpen(false);
+    setActiveSpread(null);
+    setFacingDirection('N');
   }, []);
 
   return (
@@ -108,7 +106,7 @@ function MainApp() {
         flexShrink: 0,
         borderBottom: '1px solid rgba(212,175,55,0.08)',
       }}>
-        <button onClick={reset} className="flex flex-col items-start text-left group">
+        <button onClick={reset} className="flex flex-col items-start text-left group bg-transparent border-none outline-none appearance-none p-0 m-0" style={{ WebkitTapHighlightColor: 'transparent' }}>
           <span className="font-cinzel text-base sm:text-xl tracking-[0.2em] text-gold drop-shadow-sm group-hover:text-gold/90 transition-colors">
             {t('title')}
           </span>
@@ -123,7 +121,8 @@ function MainApp() {
             id="menu-btn"
             onClick={() => setIsMenuOpen(true)}
             aria-label="Open menu"
-            className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-all active:scale-95"
+            className="relative w-9 h-9 sm:w-10 sm:h-10 rounded-full flex items-center justify-center transition-all bg-transparent outline-none appearance-none"
+            whileTap={{ scale: 0.95 }}
             style={{
               border: '1px solid rgba(212,175,55,0.35)',
               background: 'rgba(212,175,55,0.04)',
@@ -168,7 +167,7 @@ function MainApp() {
                 padding: '1.5rem 1.5rem',
               }}
             >
-              <FloatingDeck onDraw={drawDaily} />
+              <FloatingDeck onDraw={() => setIsSpreadMenuOpen(true)} />
 
               {/* Divider */}
               <div style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '1rem' }}>
@@ -180,8 +179,8 @@ function MainApp() {
               {/* Buttons */}
               <div style={{ display: 'flex', flexDirection: 'column', width: '100%', gap: '0.75rem' }}>
                 <motion.button
-                  id="draw-daily-btn"
-                  onClick={drawDaily}
+                  id="new-reading-btn"
+                  onClick={() => setIsSpreadMenuOpen(true)}
                   className="mystical-gold-btn w-full py-4 sm:py-5 px-8 flex items-center justify-between group"
                   whileTap={{ scale: 0.97 }}
                 >
@@ -190,63 +189,18 @@ function MainApp() {
                   <div className="gold-corner-bl" />
                   <div className="gold-corner-br" />
                   <span className="font-cinzel tracking-[0.25em] text-gold text-xs sm:text-sm uppercase font-bold relative z-10">
-                    {t('dailyCard')}
+                    {lang === 'th' ? 'การทำนายใหม่' : 'New Reading'}
                   </span>
                   <div className="relative z-10 flex items-center gap-1.5">
-                    <Moon size={14} className="text-gold/60" />
+                    <Sun size={14} className="text-gold/60" />
                   </div>
                   <div className="grain-overlay" />
-                </motion.button>
-
-                <motion.button
-                  id="draw-spread-btn"
-                  onClick={drawSpread}
-                  className="mystical-gold-btn w-full py-3.5 sm:py-4 px-8 flex items-center justify-center gap-3 group"
-                  style={{ borderColor: 'rgba(212,175,55,0.15)' }}
-                  whileTap={{ scale: 0.97 }}
-                >
-                  <div className="gold-corner opacity-40" />
-                  <div className="gold-corner-tr opacity-40" />
-                  <div className="gold-corner-bl opacity-40" />
-                  <div className="gold-corner-br opacity-40" />
-                  <Sun size={12} className="text-gold/40 group-hover:text-gold/70 transition-colors" />
-                  <span className="font-cinzel tracking-[0.2em] text-white/40 group-hover:text-gold/70 transition-colors text-[10px] sm:text-xs uppercase relative z-10">
-                    {t('threeCard')}
-                  </span>
-                  <div className="grain-overlay opacity-25" />
                 </motion.button>
               </div>
             </motion.div>
           )}
 
-          {/* ── DAILY ── */}
-          {view === 'daily' && (
-            <motion.div
-              key="daily"
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              exit={{ opacity: 0, y: -20 }}
-              transition={{ duration: 0.6, type: 'spring', stiffness: 200, damping: 22 }}
-              style={{
-                display: 'flex',
-                flexDirection: 'column',
-                alignItems: 'center',
-                gap: '2rem',
-                padding: '1.5rem 1rem 8rem',
-                width: '100%',
-              }}
-            >
-              {drawnCards[0] && (
-                <Card
-                  cardData={drawnCards[0]}
-                  isRevealed={revealedIndex >= 0}
-                  onReveal={() => handleCardReveal(0)}
-                  lang={lang}
-                />
-              )}
-              <ResetButton onClick={reset} label={t('back')} />
-            </motion.div>
-          )}
+
 
           {/* ── SPREAD ── */}
           {view === 'spread' && (
@@ -265,7 +219,47 @@ function MainApp() {
                 gap: '1.5rem',
               }}
             >
-              <SpreadRow cards={drawnCards} revealedIndex={revealedIndex} onReveal={handleCardReveal} lang={lang} />
+              {/* Spread Header/Title */}
+              {activeSpread && (
+                <motion.div 
+                  initial={{ opacity: 0 }} animate={{ opacity: 1 }} transition={{ delay: 0.3 }}
+                  style={{ textAlign: 'center', marginBottom: '0.5rem', display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '8px' }}
+                >
+                  <h2 style={{ fontFamily: 'Cinzel, serif', color: 'rgb(212,175,55)', fontSize: '1.1rem', letterSpacing: '0.1em' }}>
+                    {activeSpread.name[lang]}
+                  </h2>
+                  {activeSpread.id === 'spiritual_fengshui' && (
+                    <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
+                      <span style={{ fontFamily: 'Lora, serif', fontSize: '11px', color: 'rgba(255,255,255,0.7)' }}>
+                        {lang === 'th' ? 'ทิศหน้าบ้าน:' : 'Facing Direction:'}
+                      </span>
+                      <select
+                        value={facingDirection}
+                        onChange={e => setFacingDirection(e.target.value)}
+                        style={{
+                          background: 'rgba(212,175,55,0.1)',
+                          border: '1px solid rgba(212,175,55,0.3)',
+                          color: 'rgba(212,175,55,0.9)',
+                          padding: '4px 8px',
+                          borderRadius: '4px',
+                          fontFamily: 'Cinzel, serif',
+                          fontSize: '11px',
+                          outline: 'none',
+                          cursor: 'pointer'
+                        }}
+                      >
+                        {FENGSHUI_DIRECTIONS.map(d => (
+                          <option key={d.id} value={d.id} style={{ background: '#12090e' }}>
+                            {d[lang]}
+                          </option>
+                        ))}
+                      </select>
+                    </div>
+                  )}
+                </motion.div>
+              )}
+              
+              <SpreadRow cards={drawnCards} spread={activeSpread} revealedIndex={revealedIndex} onReveal={handleCardReveal} lang={lang} facingDirection={facingDirection} />
               <ResetButton onClick={reset} label={t('back')} />
             </motion.div>
           )}
@@ -279,6 +273,13 @@ function MainApp() {
         onClose={() => setIsSheetOpen(false)}
         cardData={selectedCard}
         readingMode={readingMode}
+      />
+
+      <SpreadSelectionDrawer
+        isOpen={isSpreadMenuOpen}
+        onClose={() => setIsSpreadMenuOpen(false)}
+        onSelectSpread={drawSpread}
+        lang={lang}
       />
 
       {/* ═══ MENU ═══ */}
@@ -300,55 +301,130 @@ function MainApp() {
   );
 }
 
-/* ─── SpreadRow: uses CSS Grid — guaranteed 3-column horizontal layout ─── */
-function SpreadRow({ cards, revealedIndex, onReveal, lang }) {
+/* ─── Fengshui Direction Mapping ─── */
+const FENGSHUI_DIRECTIONS = [
+  { id: 'N', en: 'North (Career)', th: 'ทิศเหนือ (งาน)' },
+  { id: 'NE', en: 'Northeast (Knowledge)', th: 'ทิศตะวันออกเฉียงเหนือ (วิชาความรู้)' },
+  { id: 'E', en: 'East (Family)', th: 'ทิศตะวันออก (ครอบครัว)' },
+  { id: 'SE', en: 'Southeast (Wealth)', th: 'ทิศตะวันออกเฉียงใต้ (การเงิน)' },
+  { id: 'S', en: 'South (Fame)', th: 'ทิศใต้ (ชื่อเสียง)' },
+  { id: 'SW', en: 'Southwest (Love)', th: 'ทิศตะวันตกเฉียงใต้ (ความรัก)' },
+  { id: 'W', en: 'West (Creativity/Children)', th: 'ทิศตะวันตก (สร้างสรรค์/บุตร)' },
+  { id: 'NW', en: 'Northwest (Helpful People)', th: 'ทิศตะวันตกเฉียงเหนือ (ผู้อุปถัมภ์)' },
+];
+// Clockwise layout starting from top-center (idx 1):
+const GRID_CIRCLE = [1, 2, 5, 8, 7, 6, 3, 0];
+
+/* ─── SpreadRow: layout logic for standard vs custom spreads ─── */
+function SpreadRow({ cards, spread, revealedIndex, onReveal, lang, facingDirection = 'N' }) {
+  // Compute spiritual fengshui dynamic labels
+  const getFengshuiLabel = (gridIdx) => {
+    if (gridIdx === 4) return lang === 'th' ? 'จุดศูนย์กลาง (สมดุล)' : 'Center (Balance)';
+    if (gridIdx === 9) return lang === 'th' ? 'ใบสรุปภาพรวม' : 'Outcome Summary';
+    
+    const startIndex = FENGSHUI_DIRECTIONS.findIndex(d => d.id === facingDirection);
+    const circlePos = GRID_CIRCLE.indexOf(gridIdx);
+    if (circlePos === -1) return '';
+    const resolvedIndex = (startIndex + circlePos) % 8;
+    return FENGSHUI_DIRECTIONS[resolvedIndex][lang];
+  };
+
+  // Helper to render individual cards with label
+  const renderCardItem = (card, idx, scaleStyle = {}) => {
+    let label = spread?.positions ? spread.positions[lang][idx] : `Card ${idx + 1}`;
+    if (spread?.id === 'spiritual_fengshui') {
+      label = getFengshuiLabel(idx);
+    }
+    
+    return (
+      <div
+        key={`${card.id}-${idx}`}
+        style={{
+          display: 'flex',
+          flexDirection: 'column',
+          alignItems: 'center',
+          gap: '6px',
+          ...scaleStyle
+        }}
+      >
+        <span
+          style={{
+            fontFamily: 'Cinzel, serif',
+            fontSize: '9px',
+            letterSpacing: '0.25em',
+            color: 'rgba(212,175,55,0.5)',
+            textTransform: 'uppercase',
+            minHeight: '12px',
+            textAlign: 'center',
+            maxWidth: '100px',
+            lineHeight: '1.2'
+          }}
+        >
+          {label}
+        </span>
+        <motion.div
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ delay: (idx % 12) * 0.15, duration: 0.45 }}
+        >
+          <Card
+            cardData={card}
+            isRevealed={revealedIndex >= idx}
+            onReveal={() => onReveal(idx)}
+            lang={lang}
+            compact
+          />
+        </motion.div>
+      </div>
+    );
+  };
+
+  // Custom Layout: Spiritual Fengshui (9-card 3x3 grid + 1 summary)
+  if (spread?.id === 'spiritual_fengshui' && cards.length === 10) {
+    const gridCards = cards.slice(0, 9);
+    const summaryCard = cards[9];
+    return (
+      <div style={{ display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '2rem', width: '100%', maxWidth: '800px' }}>
+        <div 
+          style={{ 
+            display: 'grid', 
+            gridTemplateColumns: 'repeat(3, minmax(0, 1fr))', 
+            width: '100%',
+            maxWidth: '600px'
+          }}
+          className="gap-2 sm:gap-6"
+        >
+          {gridCards.map((card, idx) => renderCardItem(card, idx, { transform: 'scale(0.85)', transformOrigin: 'top center', margin: '-5px' }))}
+        </div>
+        
+        <div style={{ display: 'flex', justifyContent: 'center', width: '100%', borderTop: '1px solid rgba(212,175,55,0.15)', paddingTop: '1.5rem' }}>
+          {renderCardItem(summaryCard, 9, { transform: 'scale(0.95)', transformOrigin: 'top center' })}
+        </div>
+      </div>
+    );
+  }
+
+  // Standard Layout: Flex wrap for general spreads
+  const isLargeSpread = cards.length > 5;
+  const isMediumSpread = cards.length > 3 && cards.length <= 5;
+  
   return (
     <div
       style={{
-        display: 'grid',
-        gridTemplateColumns: 'repeat(3, auto)',
+        display: 'flex',
+        flexWrap: 'wrap',
         justifyContent: 'center',
         alignItems: 'start',
-        gap: '16px',
+        gap: isLargeSpread ? '12px' : '16px',
         width: '100%',
+        maxWidth: isLargeSpread ? '1000px' : '800px',
       }}
     >
-      {cards.map((card, idx) => (
-        <div
-          key={card.id}
-          style={{
-            display: 'flex',
-            flexDirection: 'column',
-            alignItems: 'center',
-            gap: '6px',
-          }}
-        >
-          <span
-            style={{
-              fontFamily: 'Cinzel, serif',
-              fontSize: '9px',
-              letterSpacing: '0.25em',
-              color: 'rgba(212,175,55,0.5)',
-              textTransform: 'uppercase',
-            }}
-          >
-            {POSITION_LABELS[lang][idx]}
-          </span>
-          <motion.div
-            initial={{ opacity: 0, y: 20 }}
-            animate={{ opacity: 1, y: 0 }}
-            transition={{ delay: idx * 0.15, duration: 0.45 }}
-          >
-            <Card
-              cardData={card}
-              isRevealed={revealedIndex >= idx}
-              onReveal={() => onReveal(idx)}
-              lang={lang}
-              compact
-            />
-          </motion.div>
-        </div>
-      ))}
+      {cards.map((card, idx) => renderCardItem(card, idx, {
+        transform: isLargeSpread ? 'scale(0.85)' : isMediumSpread ? 'scale(0.92)' : 'scale(1)',
+        transformOrigin: 'top center',
+        margin: isLargeSpread ? '-10px -5px' : isMediumSpread ? '-5px' : '0'
+      }))}
     </div>
   );
 }
@@ -379,13 +455,25 @@ const ModeBadge = ({ mode, lang }) => {
 const ResetButton = ({ onClick, label }) => (
   <motion.button
     onClick={onClick}
-    className="flex items-center gap-2 transition-colors"
-    style={{ color: 'rgba(212,175,55,0.35)' }}
-    whileHover={{ color: 'rgba(212,175,55,0.85)' }}
+    className="relative flex items-center justify-center gap-2 px-6 py-2.5 rounded-full overflow-hidden group transition-all duration-500 bg-transparent border-none outline-none appearance-none"
+    style={{ 
+      background: 'rgba(18, 9, 14, 0.5)', 
+      border: '1px solid rgba(212,175,55,0.3)',
+      boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
+      WebkitTapHighlightColor: 'transparent',
+    }}
+    whileHover={{ 
+      background: 'rgba(212,175,55,0.1)',
+      border: '1px solid rgba(212,175,55,0.6)',
+      boxShadow: '0 0 20px rgba(212,175,55,0.2)'
+    }}
     whileTap={{ scale: 0.95 }}
   >
-    <RotateCcw size={12} />
-    <span className="font-cinzel text-[9px] tracking-[0.25em] uppercase">{label}</span>
+    <div className="absolute inset-0 bg-gradient-to-r from-transparent via-gold/15 to-transparent translate-x-[-100%] group-hover:translate-x-[100%] transition-transform duration-700 pointer-events-none" />
+    <RotateCcw size={14} className="text-gold/80 group-hover:text-gold transition-colors duration-300 relative z-10" />
+    <span className="font-cinzel text-[10px] sm:text-xs tracking-[0.25em] uppercase text-gold/80 group-hover:text-gold transition-colors duration-300 drop-shadow-sm relative z-10">
+      {label}
+    </span>
   </motion.button>
 );
 

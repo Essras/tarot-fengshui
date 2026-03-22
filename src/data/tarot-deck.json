@@ -924,5 +924,2373 @@
         }
       }
     }
+  ],
+  "minor": [
+    {
+      "id": 36,
+      "name": {
+        "th": "1ถ้วย",
+        "en": "Ace of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพ, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "New beginnings, Potential, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "New beginnings, Potential in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ การเริ่มต้นใหม่, ศักยภาพ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of New beginnings, Potential. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 37,
+      "name": {
+        "th": "2ถ้วย",
+        "en": "Two of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือ, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Balance, Partnership, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Balance, Partnership in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความสมดุล, ลังเล, ร่วมมือ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Balance, Partnership. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 38,
+      "name": {
+        "th": "3ถ้วย",
+        "en": "Three of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "การเติบโต, การทำงานร่วมกัน, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Growth, Collaboration, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "การเติบโต, การทำงานร่วมกันในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Growth, Collaboration in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ การเติบโต, การทำงานร่วมกัน บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Growth, Collaboration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 39,
+      "name": {
+        "th": "4ถ้วย",
+        "en": "Four of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความมั่นคง, พักผ่อน, สะสม, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Stability, Rest, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความมั่นคง, พักผ่อน, สะสมในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Stability, Rest in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความมั่นคง, พักผ่อน, สะสม บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Stability, Rest. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 40,
+      "name": {
+        "th": "5ถ้วย",
+        "en": "Five of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความขัดแย้ง, การสูญเสีย, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Conflict, Loss, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความขัดแย้ง, การสูญเสียในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Conflict, Loss in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความขัดแย้ง, การสูญเสีย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Conflict, Loss. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 41,
+      "name": {
+        "th": "6ถ้วย",
+        "en": "Six of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความสามัคคี, การฟื้นฟู, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Harmony, Recovery, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความสามัคคี, การฟื้นฟูในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Harmony, Recovery in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความสามัคคี, การฟื้นฟู บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Harmony, Recovery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 42,
+      "name": {
+        "th": "7ถ้วย",
+        "en": "Seven of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัด, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Challenge, Assessment, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัดในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Challenge, Assessment in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความท้าทาย, การประเมิน, ยืนหยัด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Challenge, Assessment. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 43,
+      "name": {
+        "th": "8ถ้วย",
+        "en": "Eight of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญ, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Movement, Mastery, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Movement, Mastery in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ การเคลื่อนไหว, ความเชี่ยวชาญ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Movement, Mastery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 44,
+      "name": {
+        "th": "9ถ้วย",
+        "en": "Nine of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมาย, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Fulfillment, Near Completion, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมายในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Fulfillment, Near Completion in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความมั่งคั่ง, ใกล้ถึงจุดหมาย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Fulfillment, Near Completion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 45,
+      "name": {
+        "th": "10ถ้วย",
+        "en": "Ten of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความสมบูรณ์, จุดสูงสุด, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Completion, Culmination, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความสมบูรณ์, จุดสูงสุดในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Completion, Culmination in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความสมบูรณ์, จุดสูงสุด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Completion, Culmination. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 46,
+      "name": {
+        "th": "เด็กนักเรียนถ้วย",
+        "en": "Page of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสาร, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Curiosity, Exploration, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสารในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Curiosity, Exploration in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ ความอยากรู้อยากเห็น, ข่าวสาร บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Curiosity, Exploration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 47,
+      "name": {
+        "th": "อัศวินถ้วย",
+        "en": "Knight of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "การลงมือทำ, การไขว่คว้า, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Action, Pursuit, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "การลงมือทำ, การไขว่คว้าในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Action, Pursuit in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ การลงมือทำ, การไขว่คว้า บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Action, Pursuit. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 48,
+      "name": {
+        "th": "ราชินีถ้วย",
+        "en": "Queen of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Nurture, Mastery of Emotion, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Nurture, Mastery of Emotion in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Nurture, Mastery of Emotion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 49,
+      "name": {
+        "th": "ราชาถ้วย",
+        "en": "King of Cups"
+      },
+      "image": "/cards/suit_cups.png",
+      "keywords": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศ, อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Authority, Control, Emotions, Relationships, Intuition"
+      },
+      "quick": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศในเรื่องของอารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+        "en": "Authority, Control in areas of Emotions, Relationships, Intuition"
+      },
+      "deep": {
+        "th": "ไพ่แห่งอารมณ์, ความสัมพันธ์, สัญชาตญาณ (ธาตุน้ำ) ผสมกับพลังของ อำนาจ, ควบคุม, ความเป็นเลิศ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Emotions, Relationships, Intuition (Element of Water) combined with the energy of Authority, Control. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ อารมณ์, ความสัมพันธ์, สัญชาตญาณ",
+            "en": "Archetype relates to Emotions, Relationships, Intuition"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุน้ำ เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Water. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุน้ำ ทำงาน",
+            "en": "Water energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุน้ำ ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Water element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 50,
+      "name": {
+        "th": "1ดาบ",
+        "en": "Ace of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพ, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "New beginnings, Potential, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "New beginnings, Potential in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ การเริ่มต้นใหม่, ศักยภาพ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of New beginnings, Potential. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 51,
+      "name": {
+        "th": "2ดาบ",
+        "en": "Two of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือ, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Balance, Partnership, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Balance, Partnership in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความสมดุล, ลังเล, ร่วมมือ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Balance, Partnership. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 52,
+      "name": {
+        "th": "3ดาบ",
+        "en": "Three of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "การเติบโต, การทำงานร่วมกัน, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Growth, Collaboration, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "การเติบโต, การทำงานร่วมกันในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Growth, Collaboration in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ การเติบโต, การทำงานร่วมกัน บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Growth, Collaboration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 53,
+      "name": {
+        "th": "4ดาบ",
+        "en": "Four of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความมั่นคง, พักผ่อน, สะสม, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Stability, Rest, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความมั่นคง, พักผ่อน, สะสมในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Stability, Rest in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความมั่นคง, พักผ่อน, สะสม บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Stability, Rest. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 54,
+      "name": {
+        "th": "5ดาบ",
+        "en": "Five of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความขัดแย้ง, การสูญเสีย, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Conflict, Loss, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความขัดแย้ง, การสูญเสียในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Conflict, Loss in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความขัดแย้ง, การสูญเสีย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Conflict, Loss. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 55,
+      "name": {
+        "th": "6ดาบ",
+        "en": "Six of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความสามัคคี, การฟื้นฟู, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Harmony, Recovery, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความสามัคคี, การฟื้นฟูในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Harmony, Recovery in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความสามัคคี, การฟื้นฟู บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Harmony, Recovery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 56,
+      "name": {
+        "th": "7ดาบ",
+        "en": "Seven of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัด, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Challenge, Assessment, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัดในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Challenge, Assessment in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความท้าทาย, การประเมิน, ยืนหยัด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Challenge, Assessment. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 57,
+      "name": {
+        "th": "8ดาบ",
+        "en": "Eight of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญ, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Movement, Mastery, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Movement, Mastery in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ การเคลื่อนไหว, ความเชี่ยวชาญ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Movement, Mastery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 58,
+      "name": {
+        "th": "9ดาบ",
+        "en": "Nine of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมาย, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Fulfillment, Near Completion, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมายในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Fulfillment, Near Completion in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความมั่งคั่ง, ใกล้ถึงจุดหมาย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Fulfillment, Near Completion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 59,
+      "name": {
+        "th": "10ดาบ",
+        "en": "Ten of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความสมบูรณ์, จุดสูงสุด, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Completion, Culmination, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความสมบูรณ์, จุดสูงสุดในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Completion, Culmination in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความสมบูรณ์, จุดสูงสุด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Completion, Culmination. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 60,
+      "name": {
+        "th": "เด็กนักเรียนดาบ",
+        "en": "Page of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสาร, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Curiosity, Exploration, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสารในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Curiosity, Exploration in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ ความอยากรู้อยากเห็น, ข่าวสาร บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Curiosity, Exploration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 61,
+      "name": {
+        "th": "อัศวินดาบ",
+        "en": "Knight of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "การลงมือทำ, การไขว่คว้า, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Action, Pursuit, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "การลงมือทำ, การไขว่คว้าในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Action, Pursuit in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ การลงมือทำ, การไขว่คว้า บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Action, Pursuit. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 62,
+      "name": {
+        "th": "ราชินีดาบ",
+        "en": "Queen of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Nurture, Mastery of Emotion, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Nurture, Mastery of Emotion in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Nurture, Mastery of Emotion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 63,
+      "name": {
+        "th": "ราชาดาบ",
+        "en": "King of Swords"
+      },
+      "image": "/cards/suit_swords.png",
+      "keywords": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศ, ความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Authority, Control, Thoughts, Communication, Conflict"
+      },
+      "quick": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศในเรื่องของความคิด, การสื่อสาร, อุปสรรค",
+        "en": "Authority, Control in areas of Thoughts, Communication, Conflict"
+      },
+      "deep": {
+        "th": "ไพ่แห่งความคิด, การสื่อสาร, อุปสรรค (ธาตุลม) ผสมกับพลังของ อำนาจ, ควบคุม, ความเป็นเลิศ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Thoughts, Communication, Conflict (Element of Air) combined with the energy of Authority, Control. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ ความคิด, การสื่อสาร, อุปสรรค",
+            "en": "Archetype relates to Thoughts, Communication, Conflict"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุลม เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Air. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุลม ทำงาน",
+            "en": "Air energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุลม ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Air element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 64,
+      "name": {
+        "th": "1เหรียญ",
+        "en": "Ace of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพ, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "New beginnings, Potential, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "การเริ่มต้นใหม่, ศักยภาพในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "New beginnings, Potential in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ การเริ่มต้นใหม่, ศักยภาพ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of New beginnings, Potential. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 65,
+      "name": {
+        "th": "2เหรียญ",
+        "en": "Two of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือ, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Balance, Partnership, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความสมดุล, ลังเล, ร่วมมือในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Balance, Partnership in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความสมดุล, ลังเล, ร่วมมือ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Balance, Partnership. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 66,
+      "name": {
+        "th": "3เหรียญ",
+        "en": "Three of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "การเติบโต, การทำงานร่วมกัน, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Growth, Collaboration, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "การเติบโต, การทำงานร่วมกันในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Growth, Collaboration in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ การเติบโต, การทำงานร่วมกัน บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Growth, Collaboration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 67,
+      "name": {
+        "th": "4เหรียญ",
+        "en": "Four of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความมั่นคง, พักผ่อน, สะสม, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Stability, Rest, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความมั่นคง, พักผ่อน, สะสมในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Stability, Rest in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความมั่นคง, พักผ่อน, สะสม บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Stability, Rest. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 68,
+      "name": {
+        "th": "5เหรียญ",
+        "en": "Five of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความขัดแย้ง, การสูญเสีย, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Conflict, Loss, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความขัดแย้ง, การสูญเสียในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Conflict, Loss in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความขัดแย้ง, การสูญเสีย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Conflict, Loss. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 69,
+      "name": {
+        "th": "6เหรียญ",
+        "en": "Six of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความสามัคคี, การฟื้นฟู, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Harmony, Recovery, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความสามัคคี, การฟื้นฟูในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Harmony, Recovery in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความสามัคคี, การฟื้นฟู บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Harmony, Recovery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 70,
+      "name": {
+        "th": "7เหรียญ",
+        "en": "Seven of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัด, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Challenge, Assessment, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความท้าทาย, การประเมิน, ยืนหยัดในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Challenge, Assessment in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความท้าทาย, การประเมิน, ยืนหยัด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Challenge, Assessment. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 71,
+      "name": {
+        "th": "8เหรียญ",
+        "en": "Eight of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญ, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Movement, Mastery, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "การเคลื่อนไหว, ความเชี่ยวชาญในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Movement, Mastery in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ การเคลื่อนไหว, ความเชี่ยวชาญ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Movement, Mastery. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 72,
+      "name": {
+        "th": "9เหรียญ",
+        "en": "Nine of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมาย, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Fulfillment, Near Completion, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความมั่งคั่ง, ใกล้ถึงจุดหมายในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Fulfillment, Near Completion in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความมั่งคั่ง, ใกล้ถึงจุดหมาย บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Fulfillment, Near Completion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 73,
+      "name": {
+        "th": "10เหรียญ",
+        "en": "Ten of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความสมบูรณ์, จุดสูงสุด, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Completion, Culmination, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความสมบูรณ์, จุดสูงสุดในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Completion, Culmination in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความสมบูรณ์, จุดสูงสุด บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Completion, Culmination. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 74,
+      "name": {
+        "th": "เด็กนักเรียนเหรียญ",
+        "en": "Page of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสาร, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Curiosity, Exploration, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "ความอยากรู้อยากเห็น, ข่าวสารในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Curiosity, Exploration in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ ความอยากรู้อยากเห็น, ข่าวสาร บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Curiosity, Exploration. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 75,
+      "name": {
+        "th": "อัศวินเหรียญ",
+        "en": "Knight of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "การลงมือทำ, การไขว่คว้า, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Action, Pursuit, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "การลงมือทำ, การไขว่คว้าในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Action, Pursuit in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ การลงมือทำ, การไขว่คว้า บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Action, Pursuit. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 76,
+      "name": {
+        "th": "ราชินีเหรียญ",
+        "en": "Queen of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Nurture, Mastery of Emotion, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Nurture, Mastery of Emotion in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ การดูแล, อำนาจแห่งอารมณ์/ความเข้าใจ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Nurture, Mastery of Emotion. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 77,
+      "name": {
+        "th": "ราชาเหรียญ",
+        "en": "King of Pentacles"
+      },
+      "image": "/cards/suit_pentacles.png",
+      "keywords": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศ, วัตถุ, การเงิน, ความมั่นคง",
+        "en": "Authority, Control, Material, Wealth, Grounding"
+      },
+      "quick": {
+        "th": "อำนาจ, ควบคุม, ความเป็นเลิศในเรื่องของวัตถุ, การเงิน, ความมั่นคง",
+        "en": "Authority, Control in areas of Material, Wealth, Grounding"
+      },
+      "deep": {
+        "th": "ไพ่แห่งวัตถุ, การเงิน, ความมั่นคง (ธาตุดิน) ผสมกับพลังของ อำนาจ, ควบคุม, ความเป็นเลิศ บ่งบอกถึงช่วงเวลาที่คุณกำลังเผชิญกับบททดสอบและของขวัญที่ธาตุนี้มอบให้คุณ จงเรียนรู้ที่จะใช้พลังงานนี้ให้สมดุล",
+        "en": "The card of Material, Wealth, Grounding (Element of Earth) combined with the energy of Authority, Control. It indicates a period where you are dealing with the lessons and gifts of this element. Find balance in utilizing this energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype สัมพันธ์กับ วัตถุ, การเงิน, ความมั่นคง",
+            "en": "Archetype relates to Material, Wealth, Grounding"
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกของคุณเชื่อมโยงกับธาตุดิน เผชิญหน้ากับความรู้สึกที่ซ่อนอยู่",
+            "en": "Your subconscious is connecting with the element of Earth. Face the hidden feelings related to this sphere."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานธาตุดิน ทำงาน",
+            "en": "Earth energy is active"
+          },
+          "deep": {
+            "th": "กระตุ้นพลังงานธาตุดิน ในพื้นที่ของคุณเพื่อสร้างสมดุลให้กับเป้าหมาย",
+            "en": "Activate the Earth element in your environment to bring balance."
+          }
+        }
+      }
+    },
+    {
+      "id": 22,
+      "name": {
+        "th": "1 ไม้เท้า",
+        "en": "Ace of Wands"
+      },
+      "image": "/cards/22.jpg",
+      "keywords": {
+        "th": "พลังสร้างสรรค์, จุดเริ่มต้นใหม่, แรงบันดาลใจ",
+        "en": "Creative Force, New Beginnings, Inspiration"
+      },
+      "quick": {
+        "th": "ความคิดริเริ่มใหม่ๆ หรือโอกาสก้าวหน้าชิ้นใหญ่กำลังจะมาถึง จงคว้ามันไว้",
+        "en": "A new creative initiative or opportunity is arriving. Seize it."
+      },
+      "deep": {
+        "th": "ไพ่ 1 ไม้เท้าคือประกายไฟแรกแห่งการสร้างสรรค์ บ่งบอกถึงจุดเริ่มต้นของโปรเจกต์ ความหลงใหล หรือพลังงานด้านบวกที่อัดแน่น คุณพร้อมที่จะลงมือทำและเปลี่ยนวิสัยทัศน์ให้เป็นความจริง",
+        "en": "The Ace of Wands is the primordial spark of creation. It signifies the start of a project, passion, or intense positive energy. You are ready to act and turn vision into reality."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: พลังสร้างสรรค์, จุดเริ่มต้นใหม่, แรงบันดาลใจ",
+            "en": "Unconscious energy links to Fire: Creative Force, New Beginnings, Inspiration"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Ace of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A single glowing wooden wand sprouting leaves, held by a divine hand emerging from a cloud, radiating powerful magical energy. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 23,
+      "name": {
+        "th": "2 ไม้เท้า",
+        "en": "Two of Wands"
+      },
+      "image": "/cards/23.jpg",
+      "keywords": {
+        "th": "การวางแผน, การตัดสินใจ, มองการณ์ไกล",
+        "en": "Planning, Decisions, Foresight"
+      },
+      "quick": {
+        "th": "คุณกุมชะตาชีวิตไว้ในมือ ถึงเวลาตัดสินใจเลือกเส้นทางเพื่ออนาคต",
+        "en": "You hold your destiny. It is time to make a choice for the future."
+      },
+      "deep": {
+        "th": "หลังจากได้เริ่มต้น ตอนนี้คุณกำลังก้าวออกมามองภาพรวม ไพ่ใบนี้มักหมายถึงการออกจากพื้นที่ปลอดภัย (Comfort Zone) เพื่อเดินตามความทะเยอทะยานที่ใหญ่ขึ้น การวางแผนที่ดีจะนำไปสู่ความสำเร็จ",
+        "en": "After the initial spark, you step back to see the big picture. This card often means leaving your comfort zone for greater ambitions. Good planning leads to success."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การวางแผน, การตัดสินใจ, มองการณ์ไกล",
+            "en": "Unconscious energy links to Fire: Planning, Decisions, Foresight"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Two of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A figure holding a small globe in one hand and a tall staff in the other, standing on a castle wall looking out at the horizon. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 24,
+      "name": {
+        "th": "3 ไม้เท้า",
+        "en": "Three of Wands"
+      },
+      "image": "/cards/24.jpg",
+      "keywords": {
+        "th": "การขยายตัว, การรอคอยผลลัพธ์, วิสัยทัศน์",
+        "en": "Expansion, Awaiting Results, Vision"
+      },
+      "quick": {
+        "th": "เรือที่คุณปล่อยออกไปกำลังจะกลับมาพร้อมความสำเร็จ จงอดทนรอคอยและมองการณ์ไกล",
+        "en": "The ships you sailed are returning with success. Be patient and visionary."
+      },
+      "deep": {
+        "th": "ความพยายามของคุณเริ่มเป็นรูปเป็นร่าง ไพ่ใบนี้แสดงถึงการเติบโต การก้าวไปข้างหน้าอย่างมั่นคง และการรอคอยผลลัพธ์จากการตระเตรียมที่ดีเยี่ยม คุณเดินมาถูกทางแล้ว",
+        "en": "Your efforts are taking shape. This card represents growth, steady progress, and waiting for the fruits of excellent preparation. You are on the right path."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การขยายตัว, การรอคอยผลลัพธ์, วิสัยทัศน์",
+            "en": "Unconscious energy links to Fire: Expansion, Awaiting Results, Vision"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Three of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A figure standing on a cliff edge, looking down at ships arriving at sea. Three tall magical wands stand firmly planted in the ground around them. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 25,
+      "name": {
+        "th": "4 ไม้เท้า",
+        "en": "Four of Wands"
+      },
+      "image": "/cards/25.jpg",
+      "keywords": {
+        "th": "การเฉลิมฉลอง, ความกลมเกลียว, รากฐานที่มั่งคง",
+        "en": "Celebration, Harmony, Solid Foundations"
+      },
+      "quick": {
+        "th": "ช่วงเวลาแห่งความสุข การเฉลิมฉลองความสำเร็จหรือเหตุการณ์สำคัญในครอบครัว",
+        "en": "A time of joy, celebrating success, or an important family milestone."
+      },
+      "deep": {
+        "th": "ไพ่ตัวแทนของความสงบสุขและความกลมเกลียว อาจหมายถึงการแต่งงาน การขึ้นบ้านใหม่ หรือการบรรลุเป้าหมายแรกที่ทำให้คุณรู้สึกมั่นคงและอบอุ่นใจ",
+        "en": "The card of peace and harmony. It can mean a marriage, a new home, or achieving a primary goal that brings you a sense of security and warmth."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การเฉลิมฉลอง, ความกลมเกลียว, รากฐานที่มั่งคง",
+            "en": "Unconscious energy links to Fire: Celebration, Harmony, Solid Foundations"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Four of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. Four wands bound together with beautiful floral garlands and vines, creating a welcoming canopy. People celebrating joyously in the distance. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 26,
+      "name": {
+        "th": "5 ไม้เท้า",
+        "en": "Five of Wands"
+      },
+      "image": "/cards/26.jpg",
+      "keywords": {
+        "th": "การแข่งขัน, ความขัดแย้ง, อุปสรรคเล็กน้อย",
+        "en": "Competition, Conflict, Minor Obstacles"
+      },
+      "quick": {
+        "th": "มีความขัดแย้ง แข่งขัน หรือการถกเถียงเกิดขึ้น แต่ไม่ใช่ปัญหาคอขาดบาดตาย",
+        "en": "There is conflict, competition, or argument, but it is not a fatal problem."
+      },
+      "deep": {
+        "th": "คุณอาจพบเจอกับความคิดเห็นที่ขัดแย้งจากคนรอบข้าง หรือการแข่งขันที่ท้าทาย ไพ่ใบนี้สอนให้คุณพยายามหาวิธีสื่อสารให้เข้าใจกัน มากกว่าจะใช้แต่อารมณ์หรือกำลัง",
+        "en": "You may encounter conflicting opinions from others or challenging competition. This card teaches you to find ways to communicate rather than forcing your way."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การแข่งขัน, ความขัดแย้ง, อุปสรรคเล็กน้อย",
+            "en": "Unconscious energy links to Fire: Competition, Conflict, Minor Obstacles"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Five of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. Five people dynamically crossing and clashing their wands in a chaotic but non-lethal struggle. Sparks flying from the wood. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 27,
+      "name": {
+        "th": "6 ไม้เท้า",
+        "en": "Six of Wands"
+      },
+      "image": "/cards/27.jpg",
+      "keywords": {
+        "th": "ชัยชนะ, การยอมรับ, ประสบความสำเร็จ",
+        "en": "Victory, Recognition, Success"
+      },
+      "quick": {
+        "th": "คุณจะได้รับชัยชนะและได้รับการยกย่องจากความพยายามของคุณอย่างเปิดเผย",
+        "en": "You will achieve victory and be widely recognized for your efforts."
+      },
+      "deep": {
+        "th": "การรับรู้และการยกย่องจากสังคม คุณกำลังอยู่ในจุดที่โดดเด่นและเป็นที่ยอมรับ ขอให้ภูมิใจในตัวเองแต่อย่าปล่อยให้อีโก้เข้าครอบงำ",
+        "en": "Social recognition and acclaim. You are in a prominent and accepted position. Be proud of yourself, but do not let ego take over."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: ชัยชนะ, การยอมรับ, ประสบความสำเร็จ",
+            "en": "Unconscious energy links to Fire: Victory, Recognition, Success"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Six of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A proud rider on a white horse wearing a laurel wreath. They hold a wand adorned with a victory wreath. A crowd cheering in the background. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 28,
+      "name": {
+        "th": "7 ไม้เท้า",
+        "en": "Seven of Wands"
+      },
+      "image": "/cards/28.jpg",
+      "keywords": {
+        "th": "การปกป้อง, ความท้าทาย, ยืนหยัด",
+        "en": "Defense, Challenge, Standing Ground"
+      },
+      "quick": {
+        "th": "ถึงเวลาต้องปกป้องสิ่งที่คุณเชื่อมั่น แม้ว่าผู้อื่นจะพยายามโจมตีหรือแย่งชิง",
+        "en": "Time to defend what you believe in, even if others try to attack or take it."
+      },
+      "deep": {
+        "th": "คุณก้าวขึ้นมาอยู่ในจุดสูงสุดแล้ว และแน่นอนว่ามีคนอิจฉาหรือพยายามเลื่อยขาเตียงคุณ ไพ่ใบนี้กระตุ้นให้คุณยืนหยัดต่อสู้เพื่อรักษาสิ่งที่คุณสร้างมา",
+        "en": "You have reached the top, and naturally, people may be envious or try to bring you down. This card urges you to stand your ground and defend what you have built."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การปกป้อง, ความท้าทาย, ยืนหยัด",
+            "en": "Unconscious energy links to Fire: Defense, Challenge, Standing Ground"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Seven of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A figure standing on higher ground, fiercely defending themselves with a single wand against six other wands thrusting upwards from below. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 29,
+      "name": {
+        "th": "8 ไม้เท้า",
+        "en": "Eight of Wands"
+      },
+      "image": "/cards/29.jpg",
+      "keywords": {
+        "th": "การเคลื่อนไหวอย่างรวดเร็ว, ข่าวสาร, ทันหันท่วงที",
+        "en": "Rapid Movement, News, Haste"
+      },
+      "quick": {
+        "th": "เหตุการณ์ต่างๆ จะเกิดขึ้นอย่างรวดเร็วและกะทันหัน ข่าวสารที่รอคอยกำลังเดินทางมา",
+        "en": "Events will unfold rapidly and suddenly. Expected news is on the way."
+      },
+      "deep": {
+        "th": "ความล่าช้าต่างๆ สิ้นสุดลงแล้ว พลังงานมหาศาลกำลังพุ่งตรงไปข้างหน้า คุณต้องเตรียมตัวรับมือกับความเปลี่ยนแปลงและการกระทำที่รวดเร็ว",
+        "en": "All delays have ended. Massive energy is shooting straight ahead. You must prepare to handle rapid actions and changes."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การเคลื่อนไหวอย่างรวดเร็ว, ข่าวสาร, ทันหันท่วงที",
+            "en": "Unconscious energy links to Fire: Rapid Movement, News, Haste"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Eight of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. Eight glowing magical wands flying swiftly diagonally through the air, like shooting stars across the cosmic void. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 30,
+      "name": {
+        "th": "9 ไม้เท้า",
+        "en": "Nine of Wands"
+      },
+      "image": "/cards/30.jpg",
+      "keywords": {
+        "th": "ความยืดหยุ่น, ความเหนื่อยล้า, ระแวดระวัง",
+        "en": "Resilience, Fatigue, Guardedness"
+      },
+      "quick": {
+        "th": "คุณเจ็บปวดและเหนื่อยล้า แต่อย่ายอมแพ้ บททดสอบสุดท้ายกำลังจะสิ้นสุดลง",
+        "en": "You are hurt and exhausted, but do not yield. The final test is almost over."
+      },
+      "deep": {
+        "th": "ไพ่ของผู้รอดชีวิต คุณผ่านสมรภูมิมามากมายและบอบช้ำ แต่คุณมีประสบการณ์และเกราะป้องกันที่แข็งแกร่ง จงใช้พลังเฮือกสุดท้ายเพื่อก้าวผ่านอุปสรรคนี้ไปให้ได้",
+        "en": "The survivor card. You have walked through many battles and hold scars, but you carry immense experience and strong defenses. Use your last burst of strength to push through."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: ความยืดหยุ่น, ความเหนื่อยล้า, ระแวดระวัง",
+            "en": "Unconscious energy links to Fire: Resilience, Fatigue, Guardedness"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Nine of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A wounded but resilient figure leaning on a central wand, looking warily ahead. Eight other wands form a protective defensive wall behind them. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 31,
+      "name": {
+        "th": "10 ไม้เท้า",
+        "en": "Ten of Wands"
+      },
+      "image": "/cards/31.jpg",
+      "keywords": {
+        "th": "ภาระ, ความรับผิดชอบที่หนักอึ้ง, ความกดดัน",
+        "en": "Burden, Heavy Responsibilities, Pressure"
+      },
+      "quick": {
+        "th": "คุณแบกรับภาระและความเครียดไว้มากเกินไป ถึงเวลาต้องเรียนรู้ที่จะปล่อยวางหรือขอความช่วยเหลือ",
+        "en": "You are carrying too much burden and stress. It is time to learn to let go or ask for help."
+      },
+      "deep": {
+        "th": "ความสำเร็จมาพร้อมกับภาระอันหนักอึ้ง คุณมาถึงเส้นชัยแล้วแต่กลับรู้สึกเหนื่อยล้าจนแทบก้าวไม่ไหว ไพ่เตือนให้คุณรู้จักปฏิเสธและกระจายความรับผิดชอบให้คนอื่นบ้าง",
+        "en": "Success has brought heavy burdens. You have reached the finish line but feel too exhausted to walk. The card warns you to learn to say no and delegate."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: ภาระ, ความรับผิดชอบที่หนักอึ้ง, ความกดดัน",
+            "en": "Unconscious energy links to Fire: Burden, Heavy Responsibilities, Pressure"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Ten of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A figure intensely struggling to carry a heavy bundle of ten thick magical wands on their back, heading towards a distant town. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 32,
+      "name": {
+        "th": "เด็กนักเรียนไม้เท้า",
+        "en": "Page of Wands"
+      },
+      "image": "/cards/32.jpg",
+      "keywords": {
+        "th": "การค้นพบ, ความกระตือรือร้น, ข่าวสารแห่งไฟ",
+        "en": "Discovery, Enthusiasm, Message of Fire"
+      },
+      "quick": {
+        "th": "ข่าวดีเกี่ยวกับความก้าวหน้า หรือการค้นพบแพสชั่นและแรงบันดาลใจใหม่ๆ",
+        "en": "Good news regarding progress, or the discovery of new passion and inspiration."
+      },
+      "deep": {
+        "th": "พลังงานบริสุทธิ์ของวัยเยาว์ที่พร้อมจะออกสำรวจโลก ไพ่ใบนี้คือสัญญาณให้คุณลองลงมือทำในสิ่งที่ใจเรียกร้อง ไม่ต้องคิดมาก จงมีอิสระดั่งเปลวไฟ",
+        "en": "Pure youthful energy ready to explore the world. This card indicates a signal to try acting on what your heart calls for. Do not overthink; be free as a flame."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: การค้นพบ, ความกระตือรือร้น, ข่าวสารแห่งไฟ",
+            "en": "Unconscious energy links to Fire: Discovery, Enthusiasm, Message of Fire"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Page of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A young magical scholar standing gracefully, holding a large wand and gazing at its glowing tip with wonder and intense curiosity. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 33,
+      "name": {
+        "th": "อัศวินไม้เท้า",
+        "en": "Knight of Wands"
+      },
+      "image": "/cards/33.jpg",
+      "keywords": {
+        "th": "พลังงานพุ่งพล่าน, ความกล้าหาญ, รักการผจญภัย",
+        "en": "Surging Energy, Courage, Adventurous"
+      },
+      "quick": {
+        "th": "คุณหรือใครบางคนกำลังจะก้าวเข้ามาพร้อมพลังงานที่พุ่งพล่านและพร้อมลุยทุกสถานการณ์",
+        "en": "You or someone is arriving with surging energy, ready to charge into any situation."
+      },
+      "deep": {
+        "th": "ความมุ่งมั่นที่ไร้ความกลัว อัศวินไม้เท้าเป็นผู้ลงมือทำอย่างรวดเร็วและเต็มไปด้วยเสน่ห์ แต่อาจขาดความระมัดระวัง เป็นช่วงเวลาที่คุณต้องใช้ความกล้าหาญนำทาง",
+        "en": "Fearless determination. The Knight of Wands is quick to act and highly charismatic but may lack caution. It is a time when you must let courage guide you."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: พลังงานพุ่งพล่าน, ความกล้าหาญ, รักการผจญภัย",
+            "en": "Unconscious energy links to Fire: Surging Energy, Courage, Adventurous"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Knight of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A valiant knight in decorative armor riding a rearing horse. The knight holds a blazing wand aloft, ready to charge into the unknown. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 34,
+      "name": {
+        "th": "ราชินีไม้เท้า",
+        "en": "Queen of Wands"
+      },
+      "image": "/cards/34.jpg",
+      "keywords": {
+        "th": "ความอบอุ่น, ความมั่นใจ, เสน่ห์ดึงดูด",
+        "en": "Warmth, Confidence, Charisma"
+      },
+      "quick": {
+        "th": "อ้าแขนรับความมั่นใจในตัวเอง คุณคือจุดศูนย์กลางที่มีอิทธิพลและเต็มเปี่ยมไปด้วยเสน่ห์",
+        "en": "Embrace your self-confidence. You are an influential center full of charisma."
+      },
+      "deep": {
+        "th": "ราชินีแห่งไฟเป็นตัวแทนของความรักอิสระ การมองโลกในแง่บวก และความเป็นผู้นำที่เข้าอกเข้าใจผู้อื่น คุณมีพลังอำนาจในการดึงดูดคนดีๆ เข้ามา",
+        "en": "The Queen of Fire represents independence, optimism, and an empathetic leadership. You possess the power to attract great people to your side."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: ความอบอุ่น, ความมั่นใจ, เสน่ห์ดึงดูด",
+            "en": "Unconscious energy links to Fire: Warmth, Confidence, Charisma"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the Queen of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A regal queen sitting on a throne decorated with lions and sunflowers. She holds a wand and faces forward with an aura of immense golden warmth and fierce confidence. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    },
+    {
+      "id": 35,
+      "name": {
+        "th": "ราชาไม้เท้า",
+        "en": "King of Wands"
+      },
+      "image": "/cards/35.jpg",
+      "keywords": {
+        "th": "ความเป็นผู้นำ, วิสัยทัศน์, พลังอำนาจผู้ประกอบการ",
+        "en": "Leadership, Vision, Entrepreneurial Power"
+      },
+      "quick": {
+        "th": "ถึงเวลาแสดงบทบาทความเป็นผู้นำ และบริหารจัดการเป้าหมายของคุณด้วยวิสัยทัศน์ที่กว้างไกล",
+        "en": "Time to step into a leadership role and manage your goals with a broad vision."
+      },
+      "deep": {
+        "th": "ราชาไม้เท้าคือผู้บัญชาการที่มีความรอบรู้ การกระทำของคุณจะมีแบบแผนและทรงพลัง ไพ่ใบนี้เป็นสัญลักษณ์ของผู้บริหารหรือผู้ประกอบการที่ประสบความสำเร็จ",
+        "en": "The King of Wands is a wise commander. Your actions will be structured and powerful. This card is a symbol of a successful executive or entrepreneur."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "พลังจิตใต้สำนึกเชื่อมโยงกับธาตุไฟ: ความเป็นผู้นำ, วิสัยทัศน์, พลังอำนาจผู้ประกอบการ",
+            "en": "Unconscious energy links to Fire: Leadership, Vision, Entrepreneurial Power"
+          },
+          "deep": {
+            "th": "ในเชิงจิตวิทยา ไพ่ใบนี้กระตุ้นสัญชาตญาณความกล้าหาญและความปรารถนาส่วนลึก (Libido/Drives) ของคุณ ให้คุณลุกขึ้นยืนหยัดในโลกความจริง",
+            "en": "Psychologically, this card activates your primal boldness and deepest desires (drives/libido) to assert yourself in reality."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กระตุ้นพลังงานธาตุไฟ (โชคลาภ/ชื่อเสียง)",
+            "en": "Activate Fire Energy (Fame/Reputation)"
+          },
+          "deep": {
+            "th": "ทิศใต้ (ความเชื่อมโยงกับธาตุไฟ) กำลังส่งผลกระทบ คุณควรเปิดไฟให้สว่าง หรือใช้สีแดง/ส้ม/ทอง เพื่อหนุนนำพลังหยางอันแข็งแกร่งนี้",
+            "en": "The South sector (Fire element) is highly impactful. Use bright lights or warm colors (red/orange/gold) to support this strong Yang energy."
+          }
+        }
+      },
+      "prompt": "Tarot card illustration of the King of Wands. Strictly monochromatic dark mystical aesthetic: pure black obsidian background, intricate metallic gold foil line art, highly detailed esoteric symbols, elegant engraving style. A powerful king sitting on an engraved throne, holding a blooming wand. Salamanders and fire motifs surround his deep golden aura, embodying supreme authority over the fire element. Portrait orientation, 2:3 ratio, no vivid colors, only black and gold foil. Masterpiece."
+    }
   ]
 }
