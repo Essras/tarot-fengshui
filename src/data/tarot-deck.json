@@ -1,0 +1,928 @@
+{
+  "major": [
+    {
+      "id": 0,
+      "name": {
+        "th": "The Fool (ผู้โง่เขลา)",
+        "en": "The Fool"
+      },
+      "image": "/cards/0.jpg",
+      "keywords": {
+        "th": "การเริ่มต้นใหม่, อิสระ, ความไร้เดียงสา",
+        "en": "New beginnings, Freedom, Innocence"
+      },
+      "quick": {
+        "th": "โอกาสใหม่กำลังมาถึง อย่ากลัวที่จะเริ่มสิ่งใหม่",
+        "en": "A new opportunity is coming. Don't be afraid to take the leap."
+      },
+      "deep": {
+        "th": "ไพ่ใบนี้เป็นสัญลักษณ์ของการเริ่มต้นการเดินทางที่ไม่มีจุดหมายที่ชัดเจน แต่เต็มไปด้วยศรัทธาและความเชื่อมั่นในตนเอง คุณอาจรู้สึกเหมือนกำลังเดิมพันกับอะไรบางอย่าง แต่อย่ากังวลไป เพราะความบริสุทธิ์ใจจะนำทางคุณไปสู่เส้นทางที่ถูกต้อง",
+        "en": "The Fool represents the beginning of a journey with no clear destination but full of faith and self-confidence. You may feel like you're taking a gamble, but don't worry—your pure intentions will guide you to the right path."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype เด็ก/ผู้บริสุทธิ์กำลังปรากฏขึ้น ยอมรับความไม่สมบูรณ์ของตัวเอง",
+            "en": "The Child archetype emerges. Embrace your imperfections."
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกกำลังเชิญให้คุณกลับไปสู่ความบริสุทธิ์ก่อนวัยผู้ใหญ่ Shadow ของคุณคือความกลัวการถูกปฏิเสธ ให้เผชิญหน้ากับมัน",
+            "en": "Your unconscious invites return to pre-adult innocence. Your shadow is fear of rejection. Face it directly."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงาน Chi ใหม่กำลังไหลเข้า เปิดประตูต้อนรับพลังงานบวก",
+            "en": "Fresh Chi energy is flowing in. Open your doors to welcome positive energy."
+          },
+          "deep": {
+            "th": "ทิศตะวันออกเฉียงเหนือ (ภาพลักษณ์และความรู้) กำลังถูกกระตุ้น เพิ่มองค์ประกอบไม้หรือต้นไม้เขียวในพื้นที่เพื่อต้อนรับพลังงานใหม่ ลมหายใจใหม่กำลังมา",
+            "en": "The Northeast sector (Knowledge & Self-cultivation) is activated. Add Wood elements or living plants to welcome new energy. A fresh breath is arriving."
+          }
+        }
+      }
+    },
+    {
+      "id": 1,
+      "name": {
+        "th": "The Magician (ผู้วิเศษ)",
+        "en": "The Magician"
+      },
+      "image": "/cards/1.jpg",
+      "keywords": {
+        "th": "ทักษะ, พลัง, ความมุ่งมั่น",
+        "en": "Skill, Power, Determination"
+      },
+      "quick": {
+        "th": "คุณมีทุกอย่างพร้อมแล้วที่จะทำให้เป้าหมายสำเร็จ",
+        "en": "You have everything you need to manifest your goals."
+      },
+      "deep": {
+        "th": "ไพ่ใบนี้เตือนให้คุณตระหนักถึงศักยภาพที่ซ่อนอยู่ภายใน คุณมีเครื่องมือและทรัพยากรที่จำเป็นทั้งหมดในการเปลี่ยนความฝันให้เป็นความจริง เพียงแค่ต้องใช้ความมุ่งมั่นและสมาธิในการควบคุมพลังเหล่านั้น",
+        "en": "This card reminds you of the hidden potential within. You have all the tools and resources necessary to turn your dreams into reality. You just need determination and focus to harness that energy."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype ผู้วิเศษ: ตัวตนที่แสดงออกสู่โลก (Ego) กำลังพร้อม",
+            "en": "The Magician archetype: your Ego is ready to manifest will."
+          },
+          "deep": {
+            "th": "Jung เรียกพลังนี้ว่า Animus ในเพศหญิง ความสามารถในการประกาศตัวตนสู่โลกภายนอก Shadow คือการใช้พลังเพื่อควบคุมผู้อื่น ระวัง",
+            "en": "Jung called this force Animus in women. The ability to assert self externally. Shadow: using power to control others. Be aware."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ทิศเหนือ (อาชีพ) กำลังได้รับพลังงาน Metal แข็งแกร่ง ใช้ประโยชน์จากโมเมนตัมนี้",
+            "en": "The North sector (Career) receives strong Metal energy. Harness this momentum."
+          },
+          "deep": {
+            "th": "วางองค์ประกอบน้ำ เช่น น้ำพุเล็กๆ ในทิศเหนือของบ้านหรือสำนักงาน เพื่อเพิ่มพลัง Chi อาชีพ สีดำและน้ำเงินเข้มช่วยเสริมพลังงานนี้ ระวังอย่าให้ทิศเหนือรกหรือมืดเกินไป",
+            "en": "Place Water elements like a small fountain in the North of your home or office to enhance Career Chi. Dark blues and blacks support this energy. Avoid clutter or darkness in the North."
+          }
+        }
+      }
+    },
+    {
+      "id": 2,
+      "name": {
+        "th": "The High Priestess (นักบวชหญิง)",
+        "en": "The High Priestess"
+      },
+      "image": "/cards/2.jpg",
+      "keywords": {
+        "th": "สัญชาตญาณ, ความลึกลับ, จิตใต้สำนึก",
+        "en": "Intuition, Mystery, Subconscious"
+      },
+      "quick": {
+        "th": "ฟังเสียงหัวใจและลางสังหรณ์ของคุณให้ดี",
+        "en": "Listen closely to your inner voice and intuition."
+      },
+      "deep": {
+        "th": "ความรู้อาจไม่ได้มาจากภายนอกเสมอไป แต่มาจากภายในตัวคุณ ไพ่ใบนี้แนะนำให้คุณนิ่งสงบและสังเกตสิ่งต่าง ๆ รอบตัว คำตอบที่คุณค้นหาซ่อนอยู่ในความเงียบและสัญชาตญาณของคุณเอง",
+        "en": "Knowledge doesn't always come from the outside; it comes from within. This card suggests you remain calm and observe. The answers you seek are hidden in silence and your own intuition."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Anima/Animus กำลังพูด ฟังเสียงภายในที่ลึกที่สุด",
+            "en": "Your Anima/Animus is speaking. Listen to the deepest inner voice."
+          },
+          "deep": {
+            "th": "ไพ่นี้เชื่อมกับ Great Mother archetype และ collective unconscious ความฝันและสัญชาตญาณคือทางเข้าสู่ความรู้ที่ซ่อนอยู่ มุมมองที่มองไม่เห็นกำลังนำทาง",
+            "en": "This card connects to the Great Mother archetype and collective unconscious. Dreams and intuition are gateways to hidden knowledge. An invisible perspective guides you."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงาน Yin สูง ในช่วงนี้ทิศตะวันตก (ความคิดสร้างสรรค์) ส่งพลัง",
+            "en": "High Yin energy. The West sector (Creativity) sends its power now."
+          },
+          "deep": {
+            "th": "ไพ่นี้เชื่อมกับธาตุน้ำและพลังงาน Yin ที่ลึกซึ้ง เพิ่มสีขาวและเงิน หรือ Metal elements ในพื้นที่ทิศตะวันตก วางกระจกในตำแหน่งที่เหมาะสมเพื่อสะท้อนแสงและความลึก",
+            "en": "This card connects to Water element and deep Yin energy. Add whites and silvers or Metal elements in the West area. Place mirrors strategically to reflect light and depth."
+          }
+        }
+      }
+    },
+    {
+      "id": 3,
+      "name": {
+        "th": "The Empress (จักรพรรดินี)",
+        "en": "The Empress"
+      },
+      "image": "/cards/3.jpg",
+      "keywords": {
+        "th": "ความอุดมสมบูรณ์, ธรรมชาติ, ความเป็นแม่",
+        "en": "Abundance, Nature, Motherhood"
+      },
+      "quick": {
+        "th": "ช่วงเวลาแห่งการเติบโตและความรุ่งเรือง",
+        "en": "A period of growth and prosperity is ahead."
+      },
+      "deep": {
+        "th": "สัญลักษณ์ของความเป็นแม่และความเอาใจใส่ ไพ่ใบนี้บ่งบอกถึงความสำเร็จที่งอกเงยมาจากความรักและการดูแลเอาใจใส่ เป็นเวลาที่เหมาะสำหรับการสร้างสรรค์สิ่งใหม่ ๆ หรือการดูแลความสัมพันธ์ให้มั่นคง",
+        "en": "A symbol of nurturing and care. This card indicates success that grows from love and attention. It is a good time for creative endeavors or strengthening your relationships."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Great Mother archetype: พลังแห่งการดูแลและการสร้างสรรค์ภายในตัวคุณ",
+            "en": "Great Mother archetype: nurturing and creative power within you."
+          },
+          "deep": {
+            "th": "จิตใต้สำนึกกำลังส่งพลัง Eros มาให้คุณ พลังที่เชื่อมต่อ สร้างสัมพันธ์ และดูแลรักษา Shadow คือการดูแลผู้อื่นจนลืมดูแลตัวเอง",
+            "en": "The unconscious sends Eros energy — the force that connects, bonds, and nurtures. Shadow: caring for others while neglecting yourself."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ทิศตะวันออกเฉียงใต้ (โชคลาภ) กำลังเบ่งบาน ธาตุไม้นำความอุดมสมบูรณ์",
+            "en": "The Southeast sector (Wealth) is blooming. Wood element brings abundance."
+          },
+          "deep": {
+            "th": "วางต้นไม้มงคล เช่น ต้นเงิน หรือต้นไข่มุข ในทิศตะวันออกเฉียงใต้ของห้อง เพิ่มสีเขียวและม่วง น้ำไหลไปทางทิศนี้จะเพิ่มพลัง Chi ของโชคลาภ",
+            "en": "Place auspicious plants like Money Tree or Jade Plant in the Southeast of the room. Add greens and purples. Water flowing toward this direction amplifies Wealth Chi."
+          }
+        }
+      }
+    },
+    {
+      "id": 4,
+      "name": {
+        "th": "The Emperor (จักรพรรดิ)",
+        "en": "The Emperor"
+      },
+      "image": "/cards/4.jpg",
+      "keywords": {
+        "th": "อำนาจ, โครงสร้าง, การควบคุม",
+        "en": "Authority, Structure, Control"
+      },
+      "quick": {
+        "th": "การจัดการอย่างเป็นระบบจะนำมาซึ่งความสำเร็จ",
+        "en": "Systematic management will lead to success."
+      },
+      "deep": {
+        "th": "ความมั่นคงและความเป็นระเบียบเป็นกุญแจสำคัญในตอนนี้ คุณอาจต้องใช้บทบาทความเป็นผู้นำหรือการตัดสินใจที่เด็ดขาดเพื่อให้สถานการณ์อยู่ภายใต้การควบคุม การมีระเบียบวินัยจะช่วยให้คุณบรรลุเป้าหมายระยะยาว",
+        "en": "Stability and order are key right now. You may need to take a leadership role or make firm decisions to keep the situation under control. Discipline will help you achieve long-term goals."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Archetype บิดา/ผู้นำกำลังปรากฏ โครงสร้างคือรากฐานของอิสรภาพ",
+            "en": "Father/Hero archetype emerges. Structure is the foundation of freedom."
+          },
+          "deep": {
+            "th": "Logos — หลักการแห่งเหตุผลและระเบียบ — กำลังถูกเรียกใช้ Shadow ของผู้ปกครองคือการใช้อำนาจเพื่อปิดกั้นการเติบโตของผู้อื่น",
+            "en": "Logos — the principle of reason and order — is being invoked. The Ruler's shadow: using authority to stifle others' growth."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ธาตุดิน (Earth) มั่นคงและแข็งแกร่ง ศูนย์กลางบ้านต้องการความสมดุล",
+            "en": "Earth element is stable and strong. The home's center needs balancing."
+          },
+          "deep": {
+            "th": "ทิศตะวันตกเฉียงใต้ (ความรักและสัมพันธ์) ต้องการธาตุดิน วางคริสตัลสีชมพูหรือสีแดงในพื้นที่นี้ ห้องนอนควรมี Yin/Yang ที่สมดุล หลีกเลี่ยงกระจกส่องเตียงโดยตรง",
+            "en": "The Southwest sector (Love & Relationships) needs Earth element. Place pink or red crystals in this area. The bedroom should have balanced Yin/Yang. Avoid mirrors facing the bed directly."
+          }
+        }
+      }
+    },
+    {
+      "id": 5,
+      "name": {
+        "th": "The Hierophant (สังฆราช)",
+        "en": "The Hierophant"
+      },
+      "image": "/cards/5.jpg",
+      "keywords": {
+        "th": "ประเพณี, ความเชื่อ, การเรียนรู้",
+        "en": "Tradition, Belief, Learning"
+      },
+      "quick": {
+        "th": "ทำตามระเบียบแบบแผนและคำสอนที่สืบทอดมา",
+        "en": "Follow the established rules and traditional teachings."
+      },
+      "deep": {
+        "th": "เป็นช่วงเวลาที่ควรศึกษาหาความรู้จากสถาบันหรือผู้เชี่ยวชาญ การเคารพในกฎเกณฑ์และประเพณีจะช่วยให้คุณได้รับคำแนะนำที่ถูกต้อง การเรียนรู้ในระบบจะช่วยให้คุณเติบโตอย่างมั่นคง",
+        "en": "A time to seek knowledge from institutions or experts. Respecting rules and traditions will help you get the right guidance. Structured learning will help you grow steadily."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Persona ของคุณกำลังถูกทดสอบ ค่านิยมแท้จริงของคุณคืออะไร?",
+            "en": "Your Persona is being tested. What are your true values?"
+          },
+          "deep": {
+            "th": "Hierophant แสดงถึง Wise Old Man archetype ผู้ถ่ายทอดปัญญา Shadow คือการใช้ศีลธรรมเพื่อควบคุมแทนที่จะปลดปล่อย",
+            "en": "The Hierophant represents the Wise Old Man archetype who transmits wisdom. Shadow: using morality to control rather than liberate."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ศูนย์กลางบ้าน (ดิน/สุขภาพ) ต้องการพลังงานจาก Fire และ Earth ให้สมดุล",
+            "en": "Center of home (Earth/Health) needs Fire and Earth energy in balance."
+          },
+          "deep": {
+            "th": "ทิศเหนือ (อาชีพและชีวิต) ต้องการพลังงานจากสถาบันและความรู้ วาง Bagua หรือสัญลักษณ์มงคลในทิศนี้ สีเหลืองและน้ำตาลเป็นมงคลสำหรับพื้นที่ศูนย์กลางบ้าน",
+            "en": "The North (Career & Life Path) needs institutional and knowledge energy. Place a Bagua or auspicious symbols in this direction. Yellow and brown are auspicious for the central home area."
+          }
+        }
+      }
+    },
+    {
+      "id": 6,
+      "name": {
+        "th": "The Lovers (คู่รัก)",
+        "en": "The Lovers"
+      },
+      "image": "/cards/6.jpg",
+      "keywords": {
+        "th": "ความรัก, ทางเลือก, ความสามัคคี",
+        "en": "Love, Choice, Harmony"
+      },
+      "quick": {
+        "th": "การตัดสินใจจากหัวใจจะนำไปสู่ความสุข",
+        "en": "Decisions made from the heart will lead to happiness."
+      },
+      "deep": {
+        "th": "ไพ่ใบนี้ไม่ได้หมายถึงความรักโรแมนติกเพียงอย่างเดียว แต่หมายถึงการเลือกทางเดินชีวิตที่สอดคล้องกับค่านิยมของคุณ ความสามัคคีและการร่วมมือกับผู้อื่นจะนำมาซึ่งผลลัพธ์ที่ดีเยี่ยม",
+        "en": "This card doesn't just mean romantic love; it's about making life choices aligned with your values. Harmony and cooperation with others will bring excellent results."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Syzygy หรือการรวมกันของ Anima/Animus กับตัวตน กำลังเกิดขึ้นในจิตใจ",
+            "en": "Syzygy — union of Anima/Animus with the Self — is occurring inwardly."
+          },
+          "deep": {
+            "th": "การเลือกในตอนนี้สะท้อนการบูรณาการของตัวตนที่แตกแยก Jung เรียกสิ่งนี้ว่า Coniunctio — การรวมกันของสิ่งตรงข้าม Shadow คือการฉายภาพความสมบูรณ์ไปที่คู่ครองแทนที่จะค้นหาในตัวเอง",
+            "en": "This choice reflects integration of divided selves. Jung called this Coniunctio — union of opposites. Shadow: projecting wholeness onto a partner instead of finding it within."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ทิศตะวันตกเฉียงใต้ (ความรัก) ได้รับพลัง Chi ดี เปิดใจต้อนรับความสัมพันธ์",
+            "en": "Southwest (Love) receives good Chi. Open your heart to relationships."
+          },
+          "deep": {
+            "th": "วางคู่ที่เป็นสัญลักษณ์ เช่น นกแมนดาริน หรือเทียนสีชมพูคู่ ในทิศตะวันตกเฉียงใต้ของห้องนอนหรือห้องนั่งเล่น หลีกเลี่ยงภาพคนเดียวในพื้นที่นี้",
+            "en": "Place paired symbols like Mandarin Ducks or pink candles in pairs in the Southwest of your bedroom or living room. Avoid images of solitary figures in this area."
+          }
+        }
+      }
+    },
+    {
+      "id": 7,
+      "name": {
+        "th": "The Chariot (อัศวินรถศึก)",
+        "en": "The Chariot"
+      },
+      "image": "/cards/7.jpg",
+      "keywords": {
+        "th": "ชัยชนะ, ความมุ่งมั่น, การควบคุม",
+        "en": "Victory, Determination, Control"
+      },
+      "quick": {
+        "th": "พุ่งไปข้างหน้าด้วยความมั่นใจ ชัยชนะรออยู่",
+        "en": "Charge forward with confidence; victory is ahead."
+      },
+      "deep": {
+        "th": "คุณกำลังเผชิญกับอุปสรรคที่ต้องใช้ความพยายามอย่างมากในการฟันฝ่า การใช้สติและการควบคุมอารมณ์จะช่วยให้คุณฝ่าฟันไปได้ ชัยชนะจะมาถึงหากคุณไม่ยอมแพ้และมุ่งมั่นในเป้าหมาย",
+        "en": "You are facing obstacles that require great effort to overcome. Using mindfulness and emotional control will help you move through. Victory will come if you don't give up."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Hero archetype กำลังขับเคลื่อน Ego ของคุณ ความมุ่งมั่นเอาชนะ Shadow",
+            "en": "Hero archetype drives your Ego. Determination overcomes the Shadow."
+          },
+          "deep": {
+            "th": "The Chariot แสดงถึงการสำรวจ Ego ที่กำลังพยายามควบคุม Shadow และ Persona ให้อยู่ในแนวเดียวกัน ความสำเร็จรออยู่เมื่อจิตใจทั้งหมดเคลื่อนไปในทิศทางเดียว",
+            "en": "The Chariot shows Ego striving to align Shadow and Persona toward one direction. Success awaits when all parts of the psyche move together."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ธาตุน้ำและไฟต้องสมดุล Chi กำลังเคลื่อนที่อย่างทรงพลัง",
+            "en": "Water and Fire must balance. Chi is moving powerfully forward."
+          },
+          "deep": {
+            "th": "ทิศใต้ (ชื่อเสียง) ได้รับพลัง Fire ที่แรง วางโคมไฟหรือเทียนในทิศใต้เพื่อเพิ่มชื่อเสียงและความสำเร็จ หลีกเลี่ยงน้ำในทิศใต้เพราะจะดับไฟแห่งความสำเร็จ",
+            "en": "The South (Fame & Reputation) receives strong Fire energy. Place lamps or candles in the South to enhance fame and success. Avoid Water in the South as it extinguishes the Fire of achievement."
+          }
+        }
+      }
+    },
+    {
+      "id": 8,
+      "name": {
+        "th": "Strength (ความแข็งแกร่ง)",
+        "en": "Strength"
+      },
+      "image": "/cards/8.jpg",
+      "keywords": {
+        "th": "ความกล้าหาญ, ความเมตตา, พลังภายใน",
+        "en": "Courage, Compassion, Inner Strength"
+      },
+      "quick": {
+        "th": "ใช้ความอ่อนโยนสยบความแข็งกร้าว",
+        "en": "Use gentleness to overcome roughness."
+      },
+      "deep": {
+        "th": "ความแข็งแกร่งที่แท้จริงมาจากจิตใจที่มั่นคงและความเมตตา ไม่ใช่การบังคับ การควบคุมสัญชาตญาณดิบด้วยความเข้าใจจะช่วยให้คุณผ่านพ้นสถานการณ์ที่ยากลำบากไปได้ด้วยดี",
+        "en": "True strength comes from a steady mind and compassion, not force. Controlling raw instincts with understanding will help you get through difficult situations gracefully."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "การบูรณาการ Shadow ด้วยความเมตตา ไม่ใช่การกดข่ม",
+            "en": "Integrating the Shadow with compassion, not suppression."
+          },
+          "deep": {
+            "th": "Jung สอนว่าเราต้องเผชิญกับเงามืดภายในตัวเองโดยไม่ตัดสิน Strength คือการยอมรับส่วนที่น่ากลัวในตัวเองและเปลี่ยนมันเป็นพลัง การกดข่มทำให้ Shadow แข็งแกร่งขึ้น",
+            "en": "Jung taught we must face our inner shadow without judgment. Strength is accepting the frightening parts of self and transmuting them into power. Suppression makes the Shadow stronger."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ธาตุดินกำลังปรากฏในพลัง Chi — ความอ่อนโยนนำพาสมดุลมาสู่พื้นที่",
+            "en": "Earth element appears in the Chi — gentleness brings spatial balance."
+          },
+          "deep": {
+            "th": "ศูนย์กลางบ้านและทิศตะวันตกเฉียงใต้ต้องการพลังงานแห่งความอ่อนโยน วางหิน คริสตัล หรือดินเผาในศูนย์กลาง สีเหลืองและส้มอ่อนช่วยเสริมพลัง Earth ในพื้นที่นี้",
+            "en": "The home center and Southwest need gentle energy. Place stones, crystals, or ceramics in the center. Soft yellows and oranges enhance Earth energy in this space."
+          }
+        }
+      }
+    },
+    {
+      "id": 9,
+      "name": {
+        "th": "The Hermit (ฤาษี)",
+        "en": "The Hermit"
+      },
+      "image": "/cards/9.jpg",
+      "keywords": {
+        "th": "การปลีกวิเวก, การไตร่ตรอง, ปัญญา",
+        "en": "Solitude, Reflection, Wisdom"
+      },
+      "quick": {
+        "th": "ใช้เวลาอยู่กับตัวเองเพื่อทบทวนสิ่งต่าง ๆ",
+        "en": "Take time for yourself to reflect on things."
+      },
+      "deep": {
+        "th": "บางครั้งคำตอบก็ไม่ได้อยู่ที่โลกภายนอก การถอยออกมาเพื่อทบทวนตัวเองจะช่วยให้คุณเห็นความจริงที่ซ่อนอยู่ ความเงียบจะช่วยปลุกปัญญาภายในให้ตื่นขึ้นและนำทางคุณไปสู่ความกระจ่าง",
+        "en": "Sometimes the answer isn't in the outside world. Stepping back to reflect will help you see hidden truths. Silence will awaken inner wisdom and lead you to clarity."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Individuation process: ช่วงที่ต้องหันมาสำรวจ psyche ของตัวเอง",
+            "en": "Individuation process: a time to turn inward and explore your own psyche."
+          },
+          "deep": {
+            "th": "ฤาษีแสดงถึงขั้นตอนที่สำคัญในการ Individuation — การแยกตัวออกจาก Collective เพื่อค้นหาตัวตนที่แท้จริง Persona ต้องถูกวางลงชั่วคราวเพื่อเผชิญกับ Self ที่ลึกกว่า",
+            "en": "The Hermit represents a crucial stage in Individuation — separating from the Collective to find the authentic Self. The Persona must temporarily be set down to face the deeper Self."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลัง Mountain Star กำลังปรากฏ ความสงบและปัญญาสถิตอยู่ในทิศตะวันออกเฉียงเหนือ",
+            "en": "Mountain Star energy appears. Peace and wisdom reside in the Northeast."
+          },
+          "deep": {
+            "th": "ทิศตะวันออกเฉียงเหนือ (ความรู้) ต้องการการเติมพลัง วางหินหรือคริสตัลในพื้นที่ศึกษา การทำสมาธิในมุมเงียบของบ้านจะช่วยเปิดปัญญาในช่วงนี้",
+            "en": "The Northeast (Knowledge) needs energy replenishment. Place stones or crystals in your study area. Meditating in a quiet corner of the home will open wisdom during this period."
+          }
+        }
+      }
+    },
+    {
+      "id": 10,
+      "name": {
+        "th": "Wheel of Fortune (กงล้อแห่งโชคชะตา)",
+        "en": "Wheel of Fortune"
+      },
+      "image": "/cards/10.jpg",
+      "keywords": {
+        "th": "โชคชะตา, การเปลี่ยนแปลง, จุดเปลี่ยน",
+        "en": "Destiny, Change, Turning Point"
+      },
+      "quick": {
+        "th": "โชคชะตากำลังเปลี่ยนไปในทางที่ดีขึ้น",
+        "en": "Fate is turning in a positive direction."
+      },
+      "deep": {
+        "th": "ทุกอย่างในชีวิตมีการขึ้นและลง การเปลี่ยนแปลงครั้งใหญ่กำลังจะมาถึงซึ่งอยู่นอกเหนือการควบคุมของคุณ จงยอมรับและปรับตัวไปตามจังหวะของชีวิต เพราะกงล้อนี้จะนำพาโอกาสใหม่มาให้เสมอ",
+        "en": "Everything in life has its ups and downs. A major change beyond your control is coming. Accept and adapt to life's rhythm, as this wheel always brings new opportunities."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Cycle ของ Individuation กำลังหมุน ยอมรับทั้งขึ้นและลง",
+            "en": "The Individuation cycle turns. Embrace both ascent and descent."
+          },
+          "deep": {
+            "th": "กงล้อแสดงถึงธรรมชาติของ psyche ที่วนเวียน Jung สอนว่าการเติบโตไม่ได้เป็นเส้นตรง แต่เป็นเกลียวที่ค่อยๆ ลึกลงและสูงขึ้น ยอมรับ rhythm นี้",
+            "en": "The Wheel shows the cyclical nature of the psyche. Jung taught that growth is not linear but a spiral, gradually deepening and rising. Accept this rhythm."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "กงล้อ Chi กำลังหมุน ทุกทิศต้องปรับสมดุล Bagua ใหม่",
+            "en": "The Chi wheel turns. All sectors need recalibration with the Bagua."
+          },
+          "deep": {
+            "th": "ช่วงนี้เป็นเวลาที่ดีในการทำ Space Clearing บ้านทั้งหลัง เปิดหน้าต่างให้อากาศหมุนเวียน ใช้ธูปหรือเกลือทะเลล้างพลังงานเก่า แล้ววาง Bagua ใหม่เพื่อรับ Chi รอบใหม่",
+            "en": "This is an excellent time for whole-home Space Clearing. Open windows for air circulation. Use incense or sea salt to cleanse old energy, then place a fresh Bagua to receive the new Chi cycle."
+          }
+        }
+      }
+    },
+    {
+      "id": 11,
+      "name": {
+        "th": "Justice (ความยุติธรรม)",
+        "en": "Justice"
+      },
+      "image": "/cards/11.jpg",
+      "keywords": {
+        "th": "ความยุติธรรม, ความจริง, กฎแห่งกรรม",
+        "en": "Justice, Truth, Karma"
+      },
+      "quick": {
+        "th": "ทุกการกระทำมีผล ความยุติธรรมจะปรากฏ",
+        "en": "Every action has consequences. Justice will prevail."
+      },
+      "deep": {
+        "th": "ไพ่ใบนี้เตือนให้ตระหนักว่าทุกสิ่งที่คุณทำมีผลตามมา ทั้งดีและไม่ดี บัดนี้เป็นเวลาที่ต้องตัดสินใจด้วยความโปร่งใสและความซื่อสัตย์ ผลลัพธ์จะออกมาสอดคล้องกับสิ่งที่คุณได้กระทำในอดีต ถ้าคุณกำลังรอความยุติธรรม — มันกำลังมา",
+        "en": "This card reminds you that everything you do has consequences, both good and bad. Now is a time to make decisions with transparency and honesty. Results will align with what you have done in the past. If you are waiting for justice — it is coming."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Persona กำลังถูกทดสอบด้วยความยุติธรรมของจิตใต้สำนึก",
+            "en": "Your Persona is being tested by the justice of the unconscious."
+          },
+          "deep": {
+            "th": "Jung เรียกสิ่งนี้ว่า Enantiodromia — แนวโน้มของจิตใจที่เกินขีดไปในด้านหนึ่งจะหันกลับมาสู่สมดุล การตัดสินใจที่ผิดพลาดในอดีตกำลังส่งผลกลับมา เป็นเวลาแห่งการรับผิดชอบ",
+            "en": "Jung called this Enantiodromia — the psyche's tendency when pushed too far in one direction to reverse toward balance. Past decisions are now reflecting back. A time for accountability."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ธาตุโลหะ (Metal) และน้ำสร้างสมดุลแห่งกฎ ความโปร่งใสในพื้นที่ช่วยได้",
+            "en": "Metal and Water elements create law and balance. Spatial transparency helps."
+          },
+          "deep": {
+            "th": "วางองค์ประกอบโลหะในทิศตะวันตกและทิศตะวันตกเฉียงเหนือเพื่อเสริมพลังแห่งความยุติธรรม ทำความสะอาดมุมที่รกหรือมืดในบ้าน เพราะพลังงานอุดตันจะขัดขวางผลลัพธ์ที่เป็นธรรม",
+            "en": "Place Metal elements in West and Northwest to strengthen the energy of justice. Clean cluttered or dark corners of the home, as stagnant energy will obstruct fair outcomes."
+          }
+        }
+      }
+    },
+    {
+      "id": 12,
+      "name": {
+        "th": "The Hanged Man (คนถูกแขวน)",
+        "en": "The Hanged Man"
+      },
+      "image": "/cards/12.jpg",
+      "keywords": {
+        "th": "การหยุดชั่วคราว, การสละ, มุมมองใหม่",
+        "en": "Pause, Surrender, New Perspective"
+      },
+      "quick": {
+        "th": "หยุดนิ่งและมองจากมุมใหม่ คำตอบอยู่ในความเงียบ",
+        "en": "Pause and see from a new angle. The answer is in stillness."
+      },
+      "deep": {
+        "th": "บางครั้งการไม่ทำอะไรคือสิ่งที่ฉลาดที่สุด ไพ่ใบนี้บอกให้คุณหยุดฝืนและปล่อยวาง การยอมรับสถานการณ์ที่เกิดขึ้นจะเปิดมุมมองใหม่ที่คุณไม่เคยเห็นมาก่อน เมื่อคุณหยุดต่อสู้กับกระแส คุณจะค้นพบปัญญาที่ลึกซึ้งยิ่งขึ้น",
+        "en": "Sometimes doing nothing is the wisest action. This card tells you to stop resisting and let go. Accepting what is opens a new perspective you've never seen before. When you stop fighting the current, you discover deeper wisdom."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "จิตใต้สำนึกเรียกให้หยุด เพื่อบูรณาการบทเรียนที่ยังค้างอยู่",
+            "en": "The unconscious calls you to pause and integrate unlearned lessons."
+          },
+          "deep": {
+            "th": "The Hanged Man แสดงถึงการสละ Ego เพื่อยอมให้ Self ที่ลึกกว่าเข้ามาชี้นำ Jung เรียกสภาวะนี้ว่า Suspension — การกลับหัวมองโลกเพื่อเข้าถึงปัญญาที่ซ่อนอยู่ในจิตใต้สำนึก",
+            "en": "The Hanged Man represents surrendering the Ego to allow the deeper Self to guide. Jung called this Suspension — turning the world upside down to access wisdom hidden in the unconscious."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "Chi กำลังหยุดนิ่งชั่วคราว นี่คือเวลาพักฟื้นพลังของพื้นที่และตัวเอง",
+            "en": "Chi is temporarily still. This is time to rest and restore your space's energy."
+          },
+          "deep": {
+            "th": "เมื่อ Chi หยุดไหล เราต้องสร้างความเคลื่อนไหวด้วยลม เพลง หรือแสงสว่าง วางพัดลมหรือจุดกระดิ่งลมในพื้นที่ที่รู้สึกอึดอัด การมองมุมมองใหม่จะช่วยให้ Chi เริ่มไหลอีกครั้ง",
+            "en": "When Chi stops flowing, we must create movement with wind, sound, or light. Place a fan or wind chimes in areas feeling stagnant. Adopting a new perspective will restart Chi flow."
+          }
+        }
+      }
+    },
+    {
+      "id": 13,
+      "name": {
+        "th": "Death (ความตาย)",
+        "en": "Death"
+      },
+      "image": "/cards/13.jpg",
+      "keywords": {
+        "th": "การเปลี่ยนแปลง, การสิ้นสุด, การเริ่มใหม่",
+        "en": "Transformation, Ending, Renewal"
+      },
+      "quick": {
+        "th": "บทหนึ่งกำลังจบลง บทใหม่ที่ดีกว่ากำลังจะเริ่ม",
+        "en": "One chapter is ending; a better new one is beginning."
+      },
+      "deep": {
+        "th": "ไพ่ Death ไม่ได้หมายถึงความตายทางกาย แต่หมายถึงการสิ้นสุดของบางสิ่งในชีวิต ไม่ว่าจะเป็นความสัมพันธ์ งาน หรือนิสัยเก่า ๆ การยอมรับการเปลี่ยนแปลงนี้คือก้าวแรกสู่การเติบโต สิ่งที่ดีกว่าจะเข้ามาแทนที่เมื่อคุณปล่อยวางสิ่งเก่าได้",
+        "en": "The Death card doesn't mean physical death, but the end of something in your life — whether a relationship, career, or old habit. Accepting this transformation is the first step toward growth. Something better will replace what you release."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Transformation archetype: บางส่วนของ Ego ต้องตาย เพื่อให้ Self งอกขึ้น",
+            "en": "Transformation archetype: part of the Ego must die for the Self to emerge."
+          },
+          "deep": {
+            "th": "Death ในมิติจิตวิทยาคือการสูญเสียอัตตาเก่าที่ทำหน้าที่ปกป้องแต่จำกัดการเติบโต Individuation ต้องการให้ Shadow และ Ego เผชิญกันอย่างตรงไปตรงมา การตายเชิงสัญลักษณ์นี้จะนำไปสู่ Self ที่สมบูรณ์กว่า",
+            "en": "Death psychologically is the loss of old Ego structures that protected but limited growth. Individuation requires Shadow and Ego to meet honestly. This symbolic death leads to a fuller Self."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ธาตุน้ำ (Water) ในแนวทิศเหนือ บ่งบอกการเปลี่ยนแปลงครั้งใหญ่ของ Chi อาชีพ",
+            "en": "Water element in the North signals a major shift in Career Chi."
+          },
+          "deep": {
+            "th": "Death ในฮวงจุ้ยหมายถึงการปรับพื้นที่ใหม่ทั้งหมด — ย้ายเฟอร์นิเจอร์ ทำความสะอาดเชิงลึก และเริ่ม Bagua ใหม่ ปล่อยสิ่งของที่ไม่ใช้เพื่อให้ Chi ใหม่ไหลเข้า ทิศเหนือต้องการการฟื้นฟูเป็นพิเศษ",
+            "en": "Death in Feng Shui means completely reorganizing the space — move furniture, deep clean, and restart the Bagua. Release unused items so new Chi can flow in. The North sector especially needs renewal."
+          }
+        }
+      }
+    },
+    {
+      "id": 14,
+      "name": {
+        "th": "Temperance (ความพอดี)",
+        "en": "Temperance"
+      },
+      "image": "/cards/14.jpg",
+      "keywords": {
+        "th": "สมดุล, ความอดทน, การผสมผสาน",
+        "en": "Balance, Patience, Integration"
+      },
+      "quick": {
+        "th": "ความสมดุลและความอดทนนำไปสู่ความสำเร็จที่ยั่งยืน",
+        "en": "Balance and patience lead to lasting success."
+      },
+      "deep": {
+        "th": "ไพ่ใบนี้แนะนำให้คุณหาจุดสมดุลในทุกด้านของชีวิต ไม่มากเกินไปและไม่น้อยเกินไป การผสมผสานสิ่งตรงข้ามเข้าด้วยกันด้วยความอดทนจะสร้างสิ่งมหัศจรรย์ อย่าเร่งรีบ — ทำทีละขั้นตอนด้วยความสงบ แล้วผลลัพธ์จะงดงาม",
+        "en": "This card guides you to find balance in all areas of life — not too much, not too little. Blending opposites with patience creates something wonderful. Don't rush — take it step by step with calmness, and the result will be beautiful."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Transcendent function: การผสมผสาน Conscious และ Unconscious อย่างสมดุล",
+            "en": "Transcendent function: balanced integration of Conscious and Unconscious."
+          },
+          "deep": {
+            "th": "Jung บอกว่า Transcendent Function คือกระบวนการที่ทำให้ Conscious และ Unconscious ทำงานร่วมกัน Temperance แสดงถึงขั้นตอนนี้ — การเทน้ำจากถ้วยหนึ่งไปอีกถ้วยจนสมดุล",
+            "en": "Jung described the Transcendent Function as the process that allows Conscious and Unconscious to cooperate. Temperance represents this — pouring between cups until balance is achieved."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ทิศตะวันตกเฉียงใต้ (สมดุล) ต้องการธาตุน้ำและดินในสัดส่วนที่พอดี",
+            "en": "Southwest (Balance) needs Water and Earth in just the right proportion."
+          },
+          "deep": {
+            "th": "Temperance แสดงถึงการปรับ Chi ให้สมดุลทุกทิศทั้ง 8 ทิศ วาง Bagua ไว้หน้าบ้านและตรวจสอบว่าทุกพื้นที่ได้รับการดูแล ไม่มีมุมไหนที่รกหรือมืด Chi ที่สมดุลนำมาซึ่งสุขภาพและความสำเร็จ",
+            "en": "Temperance signals balancing Chi across all 8 Bagua sectors. Place a Bagua at the front of your home and ensure every area is cared for — no dark or cluttered corners. Balanced Chi brings health and success."
+          }
+        }
+      }
+    },
+    {
+      "id": 15,
+      "name": {
+        "th": "The Devil (ปีศาจ)",
+        "en": "The Devil"
+      },
+      "image": "/cards/15.jpg",
+      "keywords": {
+        "th": "การยึดติด, ความกลัว, พันธนาการ",
+        "en": "Bondage, Fear, Attachment"
+      },
+      "quick": {
+        "th": "ระวังสิ่งที่ดึงดูดแต่ทำลาย ห่วงโซ่นั้นสามารถถอดออกได้",
+        "en": "Beware what attracts but destroys. The chains can be removed."
+      },
+      "deep": {
+        "th": "ไพ่ปีศาจแสดงถึงการถูกพันธนาการโดยความกลัว ความอยาก หรือนิสัยที่เป็นพิษ สิ่งสำคัญคือห่วงโซ่เหล่านั้นหลวมพอที่จะถอดออกได้ คุณมีพลังที่จะหลุดพ้นจากสิ่งที่กักขังคุณ แต่ต้องใช้ความกล้าหาญในการเผชิญหน้ากับความจริง",
+        "en": "The Devil shows being bound by fear, desire, or toxic habits. Importantly, those chains are loose enough to remove. You have the power to free yourself from what holds you captive, but it requires the courage to face the truth."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Shadow กำลังครอบงำ Ego ถึงเวลาเผชิญหน้ากับความมืดภายใน",
+            "en": "The Shadow is dominating the Ego. Time to confront inner darkness."
+          },
+          "deep": {
+            "th": "Jung สอนว่า Shadow ที่ไม่ถูกบูรณาการจะแสดงออกมาเป็นการยึดติด ความกลัว หรือพฤติกรรมที่ทำลายตัวเอง The Devil แสดงถึงส่วนที่เราปฏิเสธในตัวเอง ความกล้าในการเผชิญกับ Shadow คือก้าวแรกสู่เสรีภาพ",
+            "en": "Jung taught that unintegrated Shadow appears as obsession, fear, or self-destructive behavior. The Devil reveals the parts of self we deny. The courage to face the Shadow is the first step to freedom."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลังงานอุดตันในพื้นที่ชีวิต ต้องทำ Space Clearing ด่วน",
+            "en": "Stagnant energy blocks your life space. Space Clearing is urgently needed."
+          },
+          "deep": {
+            "th": "The Devil ในฮวงจุ้ยหมายถึงบ้านที่เต็มไปด้วยข้าวของที่ไม่ได้ใช้ สิ่งของที่มีความทรงจำเชิงลบ หรือ Chi ที่ไหลไม่สะดวก ทำการ declutter ทิ้งสิ่งของที่ไม่ได้ใช้ใน 3 ปีและเปิดรับ Chi บวก",
+            "en": "The Devil in Feng Shui means a home full of unused items, objects with negative memories, or blocked Chi flow. Declutter — let go of anything unused in 3 years — and welcome positive Chi."
+          }
+        }
+      }
+    },
+    {
+      "id": 16,
+      "name": {
+        "th": "The Tower (หอคอย)",
+        "en": "The Tower"
+      },
+      "image": "/cards/16.jpg",
+      "keywords": {
+        "th": "การพังทลาย, การเปิดเผย, การตื่นรู้",
+        "en": "Upheaval, Revelation, Awakening"
+      },
+      "quick": {
+        "th": "การพังทลายทำให้เกิดการสร้างใหม่ที่แข็งแกร่งกว่า",
+        "en": "Collapse makes way for something stronger to be built."
+      },
+      "deep": {
+        "th": "สิ่งที่ถูกสร้างบนรากฐานที่ผิดพลาดต้องล้มลงก่อนที่จะสร้างใหม่บนรากฐานที่มั่นคง ไพ่ใบนี้อาจบ่งบอกถึงความตื่นเต้นหรือวิกฤตที่มาอย่างกะทันหัน แต่เบื้องหลังความโกลาหลนี้คือโอกาสในการสร้างชีวิตใหม่ที่แท้จริงกว่าเดิม",
+        "en": "What is built on a false foundation must fall before something new can be built on solid ground. This card may indicate a sudden shock or crisis, but behind this chaos lies the opportunity to build a more authentic life."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "การล่มสลายของ False Self — Persona กำลังพังทลาย เพื่อให้ Self แท้จริงปรากฏ",
+            "en": "False Self collapses — the Persona shatters to reveal the authentic Self."
+          },
+          "deep": {
+            "th": "The Tower แสดงถึงการล่มสลายของ Persona ที่ถูกสร้างขึ้นเพื่อซ่อนตัวตนที่แท้จริง Jung เตือนว่าเมื่อ Persona แข็งแกร่งเกินไป จิตใต้สำนึกจะบังคับให้มันล่มสลาย นี่คือโอกาสที่แท้จริงในการ Individuation",
+            "en": "The Tower represents the collapse of an Persona built to hide the authentic Self. Jung warned that when the Persona becomes too rigid, the unconscious forces its destruction. This is a true opportunity for Individuation."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "การสั่นสะเทือนของ Chi รุนแรง โครงสร้างพื้นที่กำลังเปลี่ยนแปลงขนานใหญ่",
+            "en": "Chi vibration is intense. Your spatial structure is undergoing major change."
+          },
+          "deep": {
+            "th": "The Tower ในฮวงจุ้ยบ่งชี้การเปลี่ยนแปลงครั้งใหญ่ของพื้นที่อยู่อาศัย อาจเป็นการย้ายบ้าน การปรับปรุง หรือการ redesign พื้นที่ใหม่ทั้งหมด มองว่านี่คือโอกาสสร้าง Chi ที่ดีกว่า บนรากฐานที่แข็งแกร่งกว่า",
+            "en": "The Tower in Feng Shui points to major changes in living space — perhaps moving home, renovation, or complete spatial redesign. See this as an opportunity to create better Chi on a stronger foundation."
+          }
+        }
+      }
+    },
+    {
+      "id": 17,
+      "name": {
+        "th": "The Star (ดาว)",
+        "en": "The Star"
+      },
+      "image": "/cards/17.jpg",
+      "keywords": {
+        "th": "ความหวัง, การฟื้นฟู, แรงบันดาลใจ",
+        "en": "Hope, Renewal, Inspiration"
+      },
+      "quick": {
+        "th": "หลังพายุมีดาวส่องแสง ความหวังและการฟื้นฟูกำลังมา",
+        "en": "After the storm, stars shine. Hope and renewal are coming."
+      },
+      "deep": {
+        "th": "ไพ่ดาวคือสัญลักษณ์แห่งความหวังและการฟื้นฟูหลังจากผ่านช่วงเวลาที่ยากลำบาก จักรวาลกำลังส่งพลังงานแห่งการรักษาและแรงบันดาลใจมาให้คุณ เชื่อในตัวเองและเปิดใจรับสิ่งดีๆ ที่กำลังไหลมาสู่ชีวิต ความฝันของคุณไม่ไกลเกินเอื้อม",
+        "en": "The Star is a symbol of hope and renewal after difficult times. The universe is sending healing energy and inspiration your way. Trust yourself and open your heart to the good things flowing into your life. Your dreams are not out of reach."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Anima/Animus กำลังส่งความหวังผ่านความฝัน จิตใต้สำนึกกำลังรักษา",
+            "en": "Anima/Animus sends hope through dreams. The unconscious is healing."
+          },
+          "deep": {
+            "th": "The Star แสดงถึงขั้นตอนหลังการเผชิญกับ Shadow — การรักษาและการฟื้นฟู Anima ในเพศชายและ Animus ในเพศหญิงกำลังนำพลังงานชีวิตกลับคืนมา ความฝันในช่วงนี้มีความสำคัญมาก",
+            "en": "The Star shows the post-Shadow-encounter stage — healing and restoration. Anima in men and Animus in women brings life energy back. Dreams during this period carry profound significance."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "พลัง Star Water Star ส่องสว่างในทิศเหนือ Chi แห่งความหวังไหลเข้า",
+            "en": "Water Star shines in the North. Chi of hope and renewal flows in."
+          },
+          "deep": {
+            "th": "วางน้ำพุหรือรูปปลาในทิศเหนือเพื่อรับพลังงานแห่งการฟื้นฟู สีฟ้าอ่อนและขาวช่วยเสริม Chi ที่ดี เปิดม่านให้แสงดาวส่องเข้ามา พลังงาน Yin อ่อนโยนกำลังรักษาพื้นที่",
+            "en": "Place a water fountain or fish image in the North to receive renewal energy. Light blues and whites enhance good Chi. Open curtains to let starlight in. Gentle Yin energy is healing your space."
+          }
+        }
+      }
+    },
+    {
+      "id": 18,
+      "name": {
+        "th": "The Moon (พระจันทร์)",
+        "en": "The Moon"
+      },
+      "image": "/cards/18.jpg",
+      "keywords": {
+        "th": "ภาพลวงตา, ความกลัว, จิตใต้สำนึก",
+        "en": "Illusion, Fear, Subconscious"
+      },
+      "quick": {
+        "th": "สิ่งที่คุณเห็นอาจไม่ใช่ความเป็นจริงทั้งหมด ระวังการหลอกลวง",
+        "en": "What you see may not be the full truth. Beware of illusions."
+      },
+      "deep": {
+        "th": "ไพ่พระจันทร์บ่งชี้ถึงความสับสนและความไม่แน่ใจในสถานการณ์ปัจจุบัน จิตใต้สำนึกกำลังส่งสัญญาณเตือนผ่านความฝันหรือสัญชาตญาณ ให้ระมัดระวังการตัดสินใจโดยยึดติดกับสิ่งที่มองเห็นบนผิวน้ำ ความจริงที่ลึกกว่านั้นรออยู่ใต้ผิว",
+        "en": "The Moon indicates confusion and uncertainty in the current situation. Your subconscious is sending signals through dreams or intuition. Be careful about decisions based on surface appearances. A deeper truth awaits beneath the surface."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "จิตใต้สำนึกกำลังพูดผ่านภาพลวงตา ความกลัวที่ไม่ยอมรับกำลังปรากฏขึ้น",
+            "en": "The unconscious speaks through illusions. Unacknowledged fears are surfacing."
+          },
+          "deep": {
+            "th": "The Moon แสดงถึงโลกของ Unconscious ที่เต็มไปด้วยสัญลักษณ์และความกลัวที่ถูกกดข่ม Jung สอนว่าสิ่งที่เราไม่ยอมรับในตัวเองจะปรากฏเป็นภาพลวงตาหรือโปรเจคชั่น เป็นเวลาสำรวจ Shadow อย่างลึกซึ้ง",
+            "en": "The Moon reveals the Unconscious world filled with symbols and repressed fears. Jung taught that what we deny in ourselves appears as illusions or projections. A time for deep Shadow exploration."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "Chi หยินสูง ความไม่ชัดเจนของพื้นที่ต้องการแสงสว่างและการจัดระเบียบ",
+            "en": "High Yin Chi. Spatial ambiguity needs light and organization."
+          },
+          "deep": {
+            "th": "The Moon ในฮวงจุ้ยบ่งชี้พื้นที่ที่แสงไม่เพียงพอหรือพลังงาน Chi สับสน วางกระจกในตำแหน่งเชิงกลยุทธ์เพื่อสะท้อนแสง ติดโคมไฟในมุมมืด และทำ Space Clearing ด้วยธูปหรือเกลือ",
+            "en": "The Moon in Feng Shui indicates spaces with insufficient light or confused Chi energy. Place mirrors strategically to bounce light, add lamps to dark corners, and Space Clear with incense or salt."
+          }
+        }
+      }
+    },
+    {
+      "id": 19,
+      "name": {
+        "th": "The Sun (พระอาทิตย์)",
+        "en": "The Sun"
+      },
+      "image": "/cards/19.jpg",
+      "keywords": {
+        "th": "ความสุข, ความสำเร็จ, ความมีชีวิตชีวา",
+        "en": "Joy, Success, Vitality"
+      },
+      "quick": {
+        "th": "พลังงานดีๆ กำลังมา ความสุขและความสำเร็จรออยู่",
+        "en": "Positive energy is incoming. Joy and success await you."
+      },
+      "deep": {
+        "th": "ไพ่พระอาทิตย์เป็นหนึ่งในไพ่ที่มีพลังงานดีที่สุด บ่งบอกถึงช่วงเวลาแห่งความสุข ความสำเร็จ และความชัดเจนในชีวิต ความมืดมิดสิ้นสุดลงแล้ว และแสงสว่างกำลังส่องมาถึงคุณ เป็นเวลาที่ดีสำหรับการเฉลิมฉลองและแบ่งปันความสุขกับคนรอบข้าง",
+        "en": "The Sun is one of the most positive cards in the deck. It signals a time of happiness, success, and clarity in life. The darkness has ended, and light is shining on you. It's a wonderful time to celebrate and share your joy with those around you."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Self archetype กำลังเจิดจรัส — พลังงาน Individuation เต็มเปี่ยม",
+            "en": "The Self archetype shines — Individuation energy is at its fullest."
+          },
+          "deep": {
+            "th": "The Sun แสดงถึง Consciousness ที่ตื่นตัวเต็มที่ — ช่วงที่ Ego และ Self ทำงานสอดประสานกัน Jung บอกว่านี่คือผลจาก Individuation ที่ประสบความสำเร็จ ทุกส่วนของจิตใจทำงานร่วมกันอย่างฉลาด",
+            "en": "The Sun represents fully awakened Consciousness — when Ego and Self work in harmony. Jung said this is the fruit of successful Individuation, when all parts of the psyche collaborate wisely."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "ทิศใต้ (ชื่อเสียง) ลุกโชน Chi แห่ง Fire เต็มเปี่ยม กาลแห่งความสำเร็จ",
+            "en": "The South (Fame) blazes. Fire Chi is full. The time of achievement is now."
+          },
+          "deep": {
+            "th": "วางโคมไฟ เทียน หรือภาพสัตว์มงคลในทิศใต้ของบ้าน เช่น ฟีนิกซ์หรือหงส์ สีแดงสดและสีส้มเสริมพลัง Fire Chi ของความสำเร็จ ทิศใต้ที่สว่างไสวนำมาซึ่งการยอมรับและชื่อเสียง",
+            "en": "Place bright lamps, candles, or auspicious animal images in the South of your home, such as Phoenix or Crane. Vibrant reds and oranges enhance Fame Fire Chi. A bright South sector brings recognition."
+          }
+        }
+      }
+    },
+    {
+      "id": 20,
+      "name": {
+        "th": "Judgement (การพิพากษา)",
+        "en": "Judgement"
+      },
+      "image": "/cards/20.jpg",
+      "keywords": {
+        "th": "การตื่นรู้, การให้อภัย, การเรียกขาน",
+        "en": "Awakening, Absolution, Calling"
+      },
+      "quick": {
+        "th": "ถึงเวลาฟังเสียงเรียกและลุกขึ้นสู่ชีวิตใหม่",
+        "en": "Time to answer your calling and rise to a new life."
+      },
+      "deep": {
+        "th": "ไพ่การพิพากษาบ่งบอกถึงการตื่นรู้ครั้งยิ่งใหญ่ คุณถูกเรียกให้ทบทวนอดีต ให้อภัยตัวเองและผู้อื่น แล้วลุกขึ้นสู่เวอร์ชันที่ดีที่สุดของตัวเอง อย่ายึดติดกับความผิดพลาดในอดีต — บทเรียนเหล่านั้นทำให้คุณแข็งแกร่งขึ้น บัดนี้เป็นเวลาของการฟื้นคืนชีพ",
+        "en": "The Judgement card signals a major awakening. You are called to review the past, forgive yourself and others, then rise to become the best version of yourself. Don't cling to past mistakes — those lessons made you stronger. Now is the time for rebirth."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "เสียงเรียกจากจิตใต้สำนึกให้บูรณาการบทเรียนสุดท้ายและลุกขึ้น",
+            "en": "A call from the unconscious to integrate final lessons and rise."
+          },
+          "deep": {
+            "th": "Judgement แสดงถึงการตื่นรู้ครั้งใหญ่ในกระบวนการ Individuation — ช่วงที่ Ego ยอมรับ Shadow อย่างสมบูรณ์ Jung เรียกสิ่งนี้ว่า Psychological Rebirth การให้อภัยตัวเองคือกุญแจ",
+            "en": "Judgement represents the great awakening in Individuation — when the Ego fully accepts the Shadow. Jung called this Psychological Rebirth. Self-forgiveness is the key."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "การสั่นสะเทือนของ Chi ทุกทิศถูกปลุก เวลาแห่งการตื่นรู้เชิงพื้นที่",
+            "en": "Chi vibrations in all sectors awaken. A time of spatial awakening."
+          },
+          "deep": {
+            "th": "Judgement ในฮวงจุ้ยหมายถึงการทำ annual Feng Shui assessment ทบทวน Bagua ของบ้านทั้งหมด แก้ไขพื้นที่ที่อ่อนแอ และเสริมพื้นที่ที่ดีให้แข็งแกร่งมากขึ้น เป็นเวลาเริ่มรอบใหม่แห่งชีวิต",
+            "en": "Judgement in Feng Shui means conducting an annual assessment. Review your entire home Bagua, fix weak areas, and strengthen positive ones. It's time to begin a new life cycle."
+          }
+        }
+      }
+    },
+    {
+      "id": 21,
+      "name": {
+        "th": "The World (โลก)",
+        "en": "The World"
+      },
+      "image": "/cards/21.jpg",
+      "keywords": {
+        "th": "ความสมบูรณ์, ความสำเร็จ, การบูรณาการ",
+        "en": "Completion, Achievement, Integration"
+      },
+      "quick": {
+        "th": "เส้นทางนี้สมบูรณ์แล้ว คุณบรรลุสิ่งที่ต้องการ",
+        "en": "This journey is complete. You have achieved what you sought."
+      },
+      "deep": {
+        "th": "ไพ่ The World คือไพ่สุดท้ายของ Major Arcana และเป็นสัญลักษณ์ของความสมบูรณ์ครบถ้วน การเดินทางอันยาวนานสิ้นสุดแล้วด้วยความสำเร็จ คุณได้บูรณาการบทเรียนทั้งหมดเข้าด้วยกัน และพร้อมที่จะเริ่มวงจรใหม่ในระดับที่สูงกว่าเดิม นี่คือช่วงเวลาแห่งการเฉลิมฉลองและความภาคภูมิใจ",
+        "en": "The World is the final card of the Major Arcana and symbolizes total completion. The long journey has ended in success. You have integrated all the lessons and are ready to begin a new cycle at a higher level. This is a time of celebration and deep pride."
+      },
+      "modes": {
+        "psychological": {
+          "quick": {
+            "th": "Self archetype สมบูรณ์ — Individuation บรรลุผล การรวมกันทั้งหมด",
+            "en": "The Self archetype is complete — Individuation achieved. Total integration."
+          },
+          "deep": {
+            "th": "The World แสดงถึงการบรรลุ Individuation อย่างสมบูรณ์ ทุก archetype — Shadow, Anima/Animus, Persona, Self — ถูกบูรณาการเข้าเป็นหนึ่ง Jung สอนว่านี่คือเป้าหมายสูงสุดของการพัฒนาจิตวิทยา",
+            "en": "The World represents the completion of Individuation. Every archetype — Shadow, Anima/Animus, Persona, Self — is integrated into one. Jung taught this is the highest goal of psychological development."
+          }
+        },
+        "fengshui": {
+          "quick": {
+            "th": "Chi ไหลสมบูรณ์แบบทั้ง 8 ทิศ บ้านและชีวิตสมดุลอย่างสมบูรณ์",
+            "en": "Chi flows perfectly through all 8 sectors. Home and life are in complete balance."
+          },
+          "deep": {
+            "th": "The World ในฮวงจุ้ยแสดงถึงการที่ทุกทิศ Bagua ทำงานอย่างกลมกลืน ทิศเหนือ (อาชีพ) ทิศตะวันออกเฉียงใต้ (ความมั่งคั่ง) ทิศตะวันตกเฉียงใต้ (ความรัก) ทุกด้านล้วนได้รับ Chi ที่เพียงพอ นี่คือสภาวะสูงสุดของฮวงจุ้ย",
+            "en": "The World in Feng Shui shows all Bagua sectors working harmoniously — North (Career), Southeast (Wealth), Southwest (Love) — all receiving adequate Chi. This is the highest state of Feng Shui mastery."
+          }
+        }
+      }
+    }
+  ]
+}

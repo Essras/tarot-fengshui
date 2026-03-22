@@ -1,0 +1,302 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* ============================================
+   3D CARD FLIP — CRITICAL CSS
+   Without these, card flips don't work
+   ============================================ */
+.preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+.perspective-card {
+  perspective: 1000px;
+  -webkit-perspective: 1000px;
+}
+
+
+:root {
+  --obsidian: #0A0A0A;
+  --obsidian-2: #111111;
+  --gold: #D4AF37;
+  --gold-muted: rgba(212, 175, 55, 0.5);
+  --crimson: #8B1A1A;
+  --deep-teal: #0D3D3D;
+}
+
+/* ============================================
+   BASE RESET & TYPOGRAPHY
+   ============================================ */
+*, *::before, *::after { box-sizing: border-box; }
+
+body {
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--obsidian);
+  color: white;
+  min-height: 100dvh;
+  touch-action: manipulation;
+  font-family: 'Lora', serif;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+#root {
+  width: 100%;
+  min-height: 100dvh;
+  display: flex;
+  flex-direction: column;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Cinzel', serif;
+}
+
+/* ============================================
+   CUSTOM SCROLLBAR
+   ============================================ */
+::-webkit-scrollbar { width: 4px; }
+::-webkit-scrollbar-track { background: transparent; }
+::-webkit-scrollbar-thumb {
+  background: rgba(212, 175, 55, 0.3);
+  border-radius: 2px;
+}
+
+/* ============================================
+   ANIMATED STAR-FIELD BACKGROUND
+   ============================================ */
+.star-field {
+  position: fixed;
+  inset: 0;
+  pointer-events: none;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.star-field::before,
+.star-field::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  height: 2px;
+  border-radius: 50%;
+  background: white;
+  box-shadow:
+    /* Layer 1 — small distant stars */
+    120px 200px 0 0 rgba(255,255,255,0.3),
+    340px 80px 0 0 rgba(255,255,255,0.2),
+    560px 320px 0 0 rgba(255,255,255,0.4),
+    80px 450px 0 0 rgba(255,255,255,0.2),
+    700px 150px 0 0 rgba(255,255,255,0.3),
+    250px 600px 0 0 rgba(255,255,255,0.2),
+    900px 400px 0 0 rgba(255,255,255,0.3),
+    420px 720px 0 0 rgba(255,255,255,0.2),
+    1100px 250px 0 0 rgba(255,255,255,0.3),
+    1300px 550px 0 0 rgba(255,255,255,0.2),
+    770px 800px 0 0 rgba(255,255,255,0.4),
+    50px 850px 0 0 rgba(255,255,255,0.2),
+    950px 650px 0 0 rgba(255,255,255,0.3),
+    600px 920px 0 0 rgba(255,255,255,0.2),
+    /* Gold sparkles */
+    180px 300px 0 0 rgba(212,175,55,0.3),
+    450px 180px 0 0 rgba(212,175,55,0.2),
+    820px 500px 0 0 rgba(212,175,55,0.3),
+    1050px 700px 0 0 rgba(212,175,55,0.2);
+  animation: twinkle 6s ease-in-out infinite alternate;
+}
+
+.star-field::after {
+  animation-delay: -3s;
+  box-shadow:
+    230px 350px 0 0 rgba(255,255,255,0.2),
+    640px 90px 0 0 rgba(255,255,255,0.3),
+    870px 280px 0 0 rgba(255,255,255,0.2),
+    170px 610px 0 0 rgba(255,255,255,0.4),
+    1200px 440px 0 0 rgba(255,255,255,0.2),
+    320px 790px 0 0 rgba(255,255,255,0.3),
+    1000px 150px 0 0 rgba(255,255,255,0.2),
+    500px 870px 0 0 rgba(255,255,255,0.3);
+}
+
+@keyframes twinkle {
+  0% { opacity: 0.5; }
+  50% { opacity: 1; }
+  100% { opacity: 0.5; }
+}
+
+/* ============================================
+   MYSTICAL GOLD BUTTON SYSTEM
+   ============================================ */
+.mystical-gold-btn {
+  @apply relative overflow-hidden transition-all duration-500 active:scale-95 select-none;
+  background: linear-gradient(135deg, rgba(10,10,10,0.95) 0%, rgba(25,20,10,0.95) 100%);
+  border: 1px solid rgba(212,175,55,0.35);
+  box-shadow: 0 4px 20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.1);
+}
+
+.mystical-gold-btn::before {
+  content: "";
+  @apply absolute inset-0 opacity-0 transition-opacity duration-700;
+  background: linear-gradient(105deg, transparent 40%, rgba(212,175,55,0.12) 50%, transparent 60%);
+  transform: translateX(-100%);
+}
+
+.mystical-gold-btn:hover {
+  border-color: rgba(212,175,55,0.65);
+  box-shadow: 0 0 25px rgba(212,175,55,0.18), 0 6px 25px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.15);
+}
+
+.mystical-gold-btn:hover::before {
+  @apply opacity-100;
+  animation: shimmer 2.5s infinite;
+}
+
+@keyframes shimmer {
+  0%   { transform: translateX(-100%); }
+  100% { transform: translateX(200%); }
+}
+
+/* Filigree corner marks */
+.gold-corner    { @apply absolute top-0 left-0   w-2 h-2 border-t border-l border-gold/50 pointer-events-none; }
+.gold-corner-tr { @apply absolute top-0 right-0  w-2 h-2 border-t border-r border-gold/50 pointer-events-none; }
+.gold-corner-bl { @apply absolute bottom-0 left-0  w-2 h-2 border-b border-l border-gold/50 pointer-events-none; }
+.gold-corner-br { @apply absolute bottom-0 right-0 w-2 h-2 border-b border-r border-gold/50 pointer-events-none; }
+
+/* ============================================
+   GRAIN / TEXTURE OVERLAY
+   ============================================ */
+.grain-overlay {
+  @apply absolute inset-0 pointer-events-none;
+  opacity: 0.03;
+  background-image: url('https://www.transparenttextures.com/patterns/stardust.png');
+}
+
+/* ============================================
+   CARD FLIP UTILITIES
+   ============================================ */
+.perspective-card {
+  perspective: 1200px;
+  -webkit-perspective: 1200px;
+}
+
+.preserve-3d {
+  transform-style: preserve-3d;
+  -webkit-transform-style: preserve-3d;
+}
+
+.backface-hidden {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+}
+
+/* ============================================
+   CARD GLOW ON REVEAL
+   ============================================ */
+.card-revealed-glow {
+  box-shadow:
+    0 0 30px rgba(212,175,55,0.25),
+    0 0 60px rgba(212,175,55,0.1),
+    0 20px 60px rgba(0,0,0,0.8);
+}
+
+/* ============================================
+   INTERPRETATION SHEET
+   ============================================ */
+.sheet-scrollable {
+  overflow-y: auto;
+  overscroll-behavior: contain;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* ============================================
+   FLOATING PARTICLE ACCENTS
+   ============================================ */
+.particle {
+  position: absolute;
+  width: 3px;
+  height: 3px;
+  border-radius: 50%;
+  background: rgba(212, 175, 55, 0.6);
+  pointer-events: none;
+}
+
+.particle-1 {
+  animation: float1 8s ease-in-out infinite;
+  top: 20%; left: 10%;
+}
+.particle-2 {
+  animation: float2 10s ease-in-out infinite;
+  top: 60%; left: 85%;
+}
+.particle-3 {
+  animation: float3 7s ease-in-out infinite;
+  top: 80%; left: 20%;
+}
+.particle-4 {
+  animation: float1 12s ease-in-out infinite reverse;
+  top: 30%; left: 75%;
+}
+
+@keyframes float1 {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.4; }
+  33% { transform: translateY(-20px) translateX(10px); opacity: 0.8; }
+  66% { transform: translateY(10px) translateX(-8px); opacity: 0.3; }
+}
+
+@keyframes float2 {
+  0%, 100% { transform: translateY(0) translateX(0); opacity: 0.3; }
+  50% { transform: translateY(-30px) translateX(-15px); opacity: 0.7; }
+}
+
+@keyframes float3 {
+  0%, 100% { transform: translateY(0) scale(1); opacity: 0.5; }
+  40% { transform: translateY(-15px) scale(1.5); opacity: 0.9; }
+}
+
+/* ============================================
+   RESPONSIVE SAFE AREA UTILITY
+   ============================================ */
+.pb-safe {
+  padding-bottom: max(2.5rem, env(safe-area-inset-bottom));
+}
+
+/* ============================================
+   GOLD TEXT UTILITIES
+   ============================================ */
+.text-gold { color: var(--gold); }
+
+.gold-divider {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+.gold-divider::before,
+.gold-divider::after {
+  content: '';
+  flex: 1;
+  height: 1px;
+  background: linear-gradient(90deg, transparent, rgba(212,175,55,0.4), transparent);
+}
+
+/* ============================================
+   PULSING RING ANIMATION
+   ============================================ */
+@keyframes pulse-ring {
+  0% { transform: scale(1); opacity: 0.6; }
+  100% { transform: scale(1.4); opacity: 0; }
+}
+
+.pulse-ring {
+  animation: pulse-ring 2s ease-out infinite;
+}
