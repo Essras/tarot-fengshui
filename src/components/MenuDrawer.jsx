@@ -30,6 +30,10 @@ export const MenuDrawer = ({
   onToggleLang,
   readingMode,
   onSetMode,
+  useOnlyMajor,
+  onToggleMajor,
+  useReversals,
+  onToggleReversals,
 }) => {
   const dropdownRef = useRef(null);
 
@@ -168,6 +172,43 @@ export const MenuDrawer = ({
                   </button>
                 );
               })}
+            </div>
+          </Section>
+
+          <Divider />
+
+          {/* ── Deck Settings ── */}
+          <Section label={lang === 'th' ? '⊕ การตั้งค่าไพ่' : '⊕ Deck Settings'}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+              <button
+                onClick={onToggleMajor}
+                style={{
+                  width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                  padding: '8px 10px', borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s',
+                  background: useOnlyMajor ? 'rgba(212,175,55,0.08)' : 'rgba(255,255,255,0.02)',
+                  border: useOnlyMajor ? '1px solid rgba(212,175,55,0.5)' : '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
+                <span style={{ fontSize: '11px', color: useOnlyMajor ? '#D4AF37' : 'rgba(255,255,255,0.6)' }}>
+                  {lang === 'th' ? 'ใช้เฉพาะ Major Arcana (22 ใบ)' : 'Major Arcana Only (22 Cards)'}
+                </span>
+                {useOnlyMajor && <Check size={12} color="#D4AF37" />}
+              </button>
+
+              <button
+                onClick={onToggleReversals}
+                style={{
+                  width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
+                  padding: '8px 10px', borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s',
+                  background: useReversals ? 'rgba(212,175,55,0.08)' : 'rgba(255,255,255,0.02)',
+                  border: useReversals ? '1px solid rgba(212,175,55,0.5)' : '1px solid rgba(255,255,255,0.06)',
+                }}
+              >
+                <span style={{ fontSize: '11px', color: useReversals ? '#D4AF37' : 'rgba(255,255,255,0.6)' }}>
+                  {lang === 'th' ? 'ระบบไพ่ตั้งปกติ / กลับหัว' : 'Upright / Reversed'}
+                </span>
+                {useReversals && <Check size={12} color="#D4AF37" />}
+              </button>
             </div>
           </Section>
 

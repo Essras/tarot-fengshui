@@ -100,7 +100,7 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
               inset: 0,
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
-              transform: 'rotateY(180deg)',
+              transform: `rotateY(180deg) ${cardData.isReversed ? 'rotateZ(180deg)' : ''}`,
               border: '2px solid rgba(212,175,55,0.65)',
               borderRadius: '8px',
               overflow: 'hidden',

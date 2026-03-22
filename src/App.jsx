@@ -21,21 +21,27 @@ function MainApp() {
   const [activeSpread, setActiveSpread] = useState(null);
   const [readingMode, setReadingMode] = useState('mystical');
   const [facingDirection, setFacingDirection] = useState('N');
+  const [useOnlyMajor, setUseOnlyMajor] = useState(false);
+  const [useReversals, setUseReversals] = useState(false);
 
   const drawSpread = useCallback((spread) => {
     setActiveSpread(spread);
     setIsSpreadMenuOpen(false);
     
-    // Shuffle the entire deck ( মেজর + Minor ) and pick exactly spread.cardCount cards
-    const fullDeck = [...tarotData.major, ...(tarotData.minor || [])];
+    // Shuffle the selected deck and pick exactly spread.cardCount cards
+    const fullDeck = useOnlyMajor ? [...tarotData.major] : [...tarotData.major, ...(tarotData.minor || [])];
     const shuffled = fullDeck.sort(() => 0.5 - Math.random());
-    const cards = shuffled.slice(0, spread.cardCount);
+    const cards = shuffled.slice(0, spread.cardCount).map(c => {
+      // Assign reversed state if enabled
+      const isReversed = useReversals ? Math.random() > 0.5 : false;
+      return { ...c, isReversed };
+    });
     
     setDrawnCards(cards);
     setRevealedIndex(-1);
     setIsSheetOpen(false);
     setView('spread'); // 'daily' is no longer needed separate view, 'spread' handles all
-  }, []);
+  }, [useOnlyMajor, useReversals]);
 
   const handleCardReveal = useCallback((index) => {
     const alreadyRevealed = revealedIndex >= index;
@@ -290,6 +296,10 @@ function MainApp() {
         onToggleLang={toggleLang}
         readingMode={readingMode}
         onSetMode={setReadingMode}
+        useOnlyMajor={useOnlyMajor}
+        onToggleMajor={() => setUseOnlyMajor(v => !v)}
+        useReversals={useReversals}
+        onToggleReversals={() => setUseReversals(v => !v)}
       />
 
       {/* Grain overlay */}

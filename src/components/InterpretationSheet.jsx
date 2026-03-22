@@ -113,7 +113,7 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                   color: 'rgba(212,175,55,0.9)',
                   textTransform: 'uppercase',
                 }}>
-                  {cardData.name[lang]}
+                  {cardData.name[lang]} {cardData.isReversed ? (lang === 'th' ? '(กลับหัว)' : '(REV)') : ''}
                 </span>
               </div>
 
@@ -158,6 +158,23 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                     padding: '0 1.5rem 2.5rem',
                   }}
                 >
+                  {/* REVERSED WARNING */}
+                  {cardData.isReversed && (
+                    <div style={{
+                      padding: '10px 14px',
+                      background: 'rgba(212,175,55,0.05)',
+                      borderLeft: '2px solid rgba(212,175,55,0.5)',
+                      marginBottom: '10px',
+                      borderRadius: '0 6px 6px 0',
+                    }}>
+                      <p style={{ fontSize: '13px', color: 'rgba(212,175,55,0.95)', margin: 0, lineHeight: 1.5 }}>
+                        {lang === 'th' 
+                          ? '⚠️ ไพ่กลับหัว (Reversed): พลังงานและอิทธิพลของไพ่มักแสดงผลในเชิงตรงกันข้าม ล่าช้า ถูกปิดกั้น หรือเป็นปัญหาที่ซ่อนอยู่ภายในจิตใจ'
+                          : '⚠️ Reversed Card: The core energy of the card is typically delayed, blocked, internalized, or manifesting in its shadow form.'}
+                      </p>
+                    </div>
+                  )}
+
                   {/* Mode badge */}
                   {(() => {
                     const m = MODE_META[readingMode] || MODE_META.mystical;
