@@ -1,4 +1,4 @@
-import React, { useState, useCallback } from 'react';
+import React, { useState, useCallback, useEffect } from 'react';
 import { RotateCcw, Moon, Sun, Menu } from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useTranslation, LanguageProvider } from './hooks/useTranslation';
@@ -8,6 +8,14 @@ import { InterpretationSheet } from './components/InterpretationSheet';
 import { MenuDrawer } from './components/MenuDrawer';
 import { SpreadSelectionDrawer } from './components/SpreadSelectionDrawer';
 import tarotData from './data/tarot-deck.json';
+
+const FONT_SCALES = {
+  1: '14px',
+  2: '15px',
+  3: '16px',
+  4: '17.5px',
+  5: '19px',
+};
 
 function MainApp() {
   const { lang, t, toggleLang } = useTranslation();
@@ -23,6 +31,34 @@ function MainApp() {
   const [facingDirection, setFacingDirection] = useState('N');
   const [useOnlyMajor, setUseOnlyMajor] = useState(false);
   const [useReversals, setUseReversals] = useState(false);
+  const [theme, setTheme] = useState('system'); // 'light', 'dark', 'system'
+  const [fontLevel, setFontLevel] = useState(3); // 1 to 5
+
+  // Apply Font Size
+  useEffect(() => {
+    document.documentElement.style.fontSize = FONT_SCALES[fontLevel];
+  }, [fontLevel]);
+
+  // Apply Theme
+  useEffect(() => {
+    const applyTheme = () => {
+      let activeTheme = theme;
+      if (theme === 'system') {
+        const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+        activeTheme = prefersDark ? 'dark' : 'light';
+      }
+      document.documentElement.setAttribute('data-theme', activeTheme);
+    };
+
+    applyTheme();
+
+    if (theme === 'system') {
+      const mediaQuery = window.matchMedia('(prefers-color-scheme: dark)');
+      const listener = () => applyTheme();
+      mediaQuery.addEventListener('change', listener);
+      return () => mediaQuery.removeEventListener('change', listener);
+    }
+  }, [theme]);
 
   const drawSpread = useCallback((spread) => {
     setActiveSpread(spread);
@@ -75,13 +111,14 @@ function MainApp() {
       style={{
         width: '100vw',
         minHeight: '100dvh',
-        background: 'radial-gradient(ellipse at 50% 0%, #12090e 0%, #0A0A0A 60%)',
+        background: 'var(--bg-gradient)',
         display: 'flex',
         flexDirection: 'column',
         position: 'relative',
         overflowX: 'hidden',
-        color: 'white',
+        color: 'var(--text-primary)',
         fontFamily: 'Lora, serif',
+        transition: 'background 0.3s ease, color 0.3s ease',
       }}
     >
       {/* ─ STAR FIELD ─ */}
@@ -177,9 +214,9 @@ function MainApp() {
 
               {/* Divider */}
               <div style={{ width: '100%', display: 'flex', alignItems: 'center', gap: '1rem' }}>
-                <div style={{ height: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, rgba(212,175,55,0.25))' }} />
-                <Moon size={11} className="text-gold/30" />
-                <div style={{ height: '1px', flex: 1, background: 'linear-gradient(90deg, rgba(212,175,55,0.25), transparent)' }} />
+                <div style={{ height: '1px', flex: 1, background: 'linear-gradient(90deg, transparent, var(--border-color))' }} />
+                <Moon size={11} style={{ color: 'var(--gold-muted)' }} />
+                <div style={{ height: '1px', flex: 1, background: 'linear-gradient(90deg, var(--border-color), transparent)' }} />
               </div>
 
               {/* Buttons */}
@@ -236,16 +273,16 @@ function MainApp() {
                   </h2>
                   {activeSpread.id === 'spiritual_fengshui' && (
                     <div style={{ display: 'flex', alignItems: 'center', gap: '8px', marginTop: '4px' }}>
-                      <span style={{ fontFamily: 'Lora, serif', fontSize: '11px', color: 'rgba(255,255,255,0.7)' }}>
+                      <span style={{ fontFamily: 'Lora, serif', fontSize: '11px', color: 'var(--text-secondary)' }}>
                         {lang === 'th' ? 'ทิศหน้าบ้าน:' : 'Facing Direction:'}
                       </span>
                       <select
                         value={facingDirection}
                         onChange={e => setFacingDirection(e.target.value)}
                         style={{
-                          background: 'rgba(212,175,55,0.1)',
-                          border: '1px solid rgba(212,175,55,0.3)',
-                          color: 'rgba(212,175,55,0.9)',
+                          background: 'var(--surface-1)',
+                          border: '1px solid var(--border-color)',
+                          color: 'var(--gold)',
                           padding: '4px 8px',
                           borderRadius: '4px',
                           fontFamily: 'Cinzel, serif',
@@ -279,6 +316,8 @@ function MainApp() {
         onClose={() => setIsSheetOpen(false)}
         cardData={selectedCard}
         readingMode={readingMode}
+        fontLevel={fontLevel}
+        onSetFontLevel={setFontLevel}
       />
 
       <SpreadSelectionDrawer
@@ -300,6 +339,10 @@ function MainApp() {
         onToggleMajor={() => setUseOnlyMajor(v => !v)}
         useReversals={useReversals}
         onToggleReversals={() => setUseReversals(v => !v)}
+        theme={theme}
+        onSetTheme={setTheme}
+        fontLevel={fontLevel}
+        onSetFontLevel={setFontLevel}
       />
 
       {/* Grain overlay */}
@@ -362,7 +405,7 @@ function SpreadRow({ cards, spread, revealedIndex, onReveal, lang, facingDirecti
             fontFamily: 'Cinzel, serif',
             fontSize: '9px',
             letterSpacing: '0.25em',
-            color: 'rgba(212,175,55,0.5)',
+            color: 'var(--gold-muted)',
             textTransform: 'uppercase',
             minHeight: '12px',
             textAlign: 'center',
@@ -467,15 +510,15 @@ const ResetButton = ({ onClick, label }) => (
     onClick={onClick}
     className="relative flex items-center justify-center gap-2 px-6 py-2.5 rounded-full overflow-hidden group transition-all duration-500 bg-transparent border-none outline-none appearance-none"
     style={{ 
-      background: 'rgba(18, 9, 14, 0.5)', 
-      border: '1px solid rgba(212,175,55,0.3)',
+      background: 'var(--surface-1)', 
+      border: '1px solid var(--border-color)',
       boxShadow: '0 4px 15px rgba(0,0,0,0.3)',
       WebkitTapHighlightColor: 'transparent',
     }}
     whileHover={{ 
-      background: 'rgba(212,175,55,0.1)',
-      border: '1px solid rgba(212,175,55,0.6)',
-      boxShadow: '0 0 20px rgba(212,175,55,0.2)'
+      background: 'var(--surface-2)',
+      border: '1px solid var(--gold-muted)',
+      boxShadow: '0 0 20px var(--border-color)'
     }}
     whileTap={{ scale: 0.95 }}
   >

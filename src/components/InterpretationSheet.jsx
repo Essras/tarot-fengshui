@@ -13,7 +13,7 @@ const MODE_META = {
   fengshui:      { color: '#e67e22', label: { th: '✦ ฮวงจุ้ย', en: '✦ Feng Shui' },         lens: { th: 'พลังงานสถานที่และการไหลของชี', en: 'Space energy and chi flow' } },
 };
 
-export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = 'mystical' }) => {
+export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = 'mystical', fontLevel, onSetFontLevel }) => {
   const { lang, t } = useTranslation();
   const [isExpanded, setIsExpanded] = React.useState(true);
   const [imgError, setImgError] = React.useState(false);
@@ -65,10 +65,10 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
               display: 'flex',
               flexDirection: 'column',
               maxHeight: '92dvh',
-              background: 'linear-gradient(180deg, #111 0%, #0A0A0A 100%)',
-              borderTop: '1px solid rgba(212,175,55,0.45)',
+              background: 'var(--sheet-bg)',
+              borderTop: '1px solid var(--gold-muted)',
               borderRadius: '20px 20px 0 0',
-              boxShadow: '0 -8px 40px rgba(0,0,0,0.9), 0 -1px 0 rgba(212,175,55,0.3)',
+              boxShadow: '0 -8px 40px rgba(0,0,0,0.9), 0 -1px 0 var(--border-color)',
             }}
           >
             {/* Gold accent line at top edge */}
@@ -78,8 +78,9 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
               left: '20%',
               right: '20%',
               height: 1,
-              background: 'linear-gradient(90deg, transparent, rgba(212,175,55,0.7), transparent)',
+              background: 'linear-gradient(90deg, transparent, var(--gold), transparent)',
               pointerEvents: 'none',
+              opacity: 0.7,
             }} />
 
             {/* ── PEEK HANDLE: always visible ── */}
@@ -99,18 +100,18 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
               <div style={{ display: 'flex', flexDirection: 'column', gap: '2px' }}>
                 <span style={{
                   fontFamily: 'Cinzel, serif',
-                  fontSize: '8px',
+                  fontSize: '0.57rem',
                   letterSpacing: '0.3em',
-                  color: 'rgba(212,175,55,0.4)',
+                  color: 'var(--gold-muted)',
                   textTransform: 'uppercase',
                 }}>
                   {cardData.id === 0 ? '☽ O ☾' : `— ${getRomanNumeral(cardData.id)} —`}
                 </span>
                 <span style={{
                   fontFamily: 'Cinzel, serif',
-                  fontSize: '13px',
+                  fontSize: '0.9rem',
                   letterSpacing: '0.12em',
-                  color: 'rgba(212,175,55,0.9)',
+                  color: 'var(--gold)',
                   textTransform: 'uppercase',
                 }}>
                   {cardData.name[lang]} {cardData.isReversed ? (lang === 'th' ? '(กลับหัว)' : '(REV)') : ''}
@@ -119,17 +120,17 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
 
               <div style={{ display: 'flex', alignItems: 'center', gap: '10px' }}>
                 <motion.div animate={{ rotate: isExpanded ? 180 : 0 }} transition={{ duration: 0.3 }}>
-                  <ChevronUp size={16} style={{ color: 'rgba(212,175,55,0.5)' }} />
+                  <ChevronUp size={16} style={{ color: 'var(--gold-muted)' }} />
                 </motion.div>
                 {isExpanded && (
                   <button
                     onClick={e => { e.stopPropagation(); onClose(); }}
                     style={{
                       width: 28, height: 28, borderRadius: '50%',
-                      border: '1px solid rgba(212,175,55,0.25)',
+                      border: '1px solid var(--border-color)',
                       background: 'transparent', cursor: 'pointer',
                       display: 'flex', alignItems: 'center', justifyContent: 'center',
-                      color: 'rgba(212,175,55,0.5)',
+                      color: 'var(--gold-muted)',
                     }}
                   >
                     <X size={13} />
@@ -158,16 +159,53 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                     padding: '0 1.5rem 2.5rem',
                   }}
                 >
+                  {/* Font Size Adjuster Inside Sheet */}
+                  <div style={{ display: 'flex', alignItems: 'center', gap: '8px', padding: '0 0.5rem', alignSelf: 'flex-end', marginTop: '-0.5rem' }}>
+                    <button
+                      onClick={() => onSetFontLevel?.(Math.max(1, fontLevel - 1))}
+                      style={{
+                        width: 28, height: 28, borderRadius: '8px', flexShrink: 0,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        background: 'var(--surface-1)', border: '1px solid var(--border-faint)',
+                        color: fontLevel > 1 ? 'var(--text-primary)' : 'var(--text-muted)',
+                        cursor: fontLevel > 1 ? 'pointer' : 'not-allowed',
+                      }}
+                    >
+                      <span style={{ fontSize: '0.85rem', fontWeight: 'bold', fontFamily: 'Lora, serif' }}>A-</span>
+                    </button>
+                    <div style={{ display: 'flex', justifyContent: 'center', padding: '0 4px', gap: '4px' }}>
+                      {[1, 2, 3, 4, 5].map(step => (
+                        <div key={step} style={{
+                          width: 4, height: 4, borderRadius: '50%',
+                          background: step <= fontLevel ? 'var(--gold)' : 'var(--border-color)',
+                          transition: 'all 0.2s'
+                        }} />
+                      ))}
+                    </div>
+                    <button
+                      onClick={() => onSetFontLevel?.(Math.min(5, fontLevel + 1))}
+                      style={{
+                        width: 28, height: 28, borderRadius: '8px', flexShrink: 0,
+                        display: 'flex', alignItems: 'center', justifyContent: 'center',
+                        background: 'var(--surface-1)', border: '1px solid var(--border-faint)',
+                        color: fontLevel < 5 ? 'var(--text-primary)' : 'var(--text-muted)',
+                        cursor: fontLevel < 5 ? 'pointer' : 'not-allowed',
+                      }}
+                    >
+                      <span style={{ fontSize: '0.85rem', fontWeight: 'bold', fontFamily: 'Lora, serif' }}>A+</span>
+                    </button>
+                  </div>
+
                   {/* REVERSED WARNING */}
                   {cardData.isReversed && (
                     <div style={{
                       padding: '10px 14px',
-                      background: 'rgba(212,175,55,0.05)',
-                      borderLeft: '2px solid rgba(212,175,55,0.5)',
+                      background: 'var(--surface-1)',
+                      borderLeft: '2px solid var(--gold-muted)',
                       marginBottom: '10px',
                       borderRadius: '0 6px 6px 0',
                     }}>
-                      <p style={{ fontSize: '13px', color: 'rgba(212,175,55,0.95)', margin: 0, lineHeight: 1.5 }}>
+                      <p style={{ fontSize: '0.9rem', color: 'var(--gold)', margin: 0, lineHeight: 1.5 }}>
                         {lang === 'th' 
                           ? '⚠️ ไพ่กลับหัว (Reversed): พลังงานและอิทธิพลของไพ่มักแสดงผลในเชิงตรงกันข้าม ล่าช้า ถูกปิดกั้น หรือเป็นปัญหาที่ซ่อนอยู่ภายในจิตใจ'
                           : '⚠️ Reversed Card: The core energy of the card is typically delayed, blocked, internalized, or manifesting in its shadow form.'}
@@ -185,10 +223,10 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                         background: `${m.color}15`, border: `1px solid ${m.color}40`,
                       }}>
                         <div style={{ width: 5, height: 5, borderRadius: '50%', background: m.color, flexShrink: 0 }} />
-                        <span style={{ fontFamily: 'Cinzel, serif', fontSize: '8px', letterSpacing: '0.2em', color: m.color, textTransform: 'uppercase' }}>
+                        <span style={{ fontFamily: 'Cinzel, serif', fontSize: '0.57rem', letterSpacing: '0.2em', color: m.color, textTransform: 'uppercase' }}>
                           {m.label[lang]}
                         </span>
-                        <span style={{ fontFamily: 'Lora, serif', fontSize: '8px', color: 'rgba(255,255,255,0.3)', marginLeft: '2px' }}>
+                        <span style={{ fontFamily: 'Lora, serif', fontSize: '0.57rem', color: 'var(--text-muted)', marginLeft: '2px' }}>
                           — {m.lens[lang]}
                         </span>
                       </div>
@@ -199,15 +237,15 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                   <div style={{
                     display: 'flex', gap: '1rem', alignItems: 'flex-start',
                     paddingBottom: '1rem',
-                    borderBottom: '1px solid rgba(212,175,55,0.1)',
+                    borderBottom: '1px solid var(--border-color)',
                   }}>
                     {/* Thumbnail */}
                     {!imgError ? (
                       <div style={{
                         flexShrink: 0, width: 64, height: 96,
                         borderRadius: 6, overflow: 'hidden',
-                        border: '1px solid rgba(212,175,55,0.5)',
-                        boxShadow: '0 0 12px rgba(212,175,55,0.2)',
+                        border: '1px solid var(--gold-muted)',
+                        boxShadow: '0 0 12px var(--border-color)',
                       }}>
                         <img
                           src={cardData.image}
@@ -219,17 +257,17 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                     ) : (
                       <div style={{
                         flexShrink: 0, width: 64, height: 96, borderRadius: 6,
-                        border: '1px solid rgba(212,175,55,0.3)',
+                        border: '1px solid var(--border-color)',
                         display: 'flex', alignItems: 'center', justifyContent: 'center',
                       }}>
-                        <Star size={18} style={{ color: 'rgba(212,175,55,0.4)' }} />
+                        <Star size={18} style={{ color: 'var(--gold-muted)' }} />
                       </div>
                     )}
                     {/* Keywords */}
                     <div style={{ flex: 1 }}>
                       <p style={{
-                        fontFamily: 'Lora, serif', fontSize: '11px',
-                        letterSpacing: '0.15em', color: 'rgba(212,175,55,0.55)',
+                        fontFamily: 'Lora, serif', fontSize: '0.78rem',
+                        letterSpacing: '0.15em', color: 'var(--gold-muted)',
                         textTransform: 'uppercase',
                       }}>
                         {cardData.keywords[lang]}
@@ -240,12 +278,12 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
                   {/* Quick reading */}
                   <div style={{
                     padding: '0.875rem 1rem',
-                    background: 'linear-gradient(90deg, rgba(212,175,55,0.07), transparent)',
-                    borderLeft: '2px solid rgba(212,175,55,0.5)',
+                    background: 'linear-gradient(90deg, var(--surface-2), transparent)',
+                    borderLeft: '2px solid var(--gold-muted)',
                   }}>
                     <p style={{
-                      fontFamily: 'Lora, serif', fontSize: '14px',
-                      fontStyle: 'italic', color: 'rgba(255,255,255,0.85)', lineHeight: 1.7,
+                      fontFamily: 'Lora, serif', fontSize: '1rem',
+                      fontStyle: 'italic', color: 'var(--text-primary)', lineHeight: 1.7,
                     }}>
                       ✦ {(cardData.modes?.[readingMode]?.quick ?? cardData.quick)[lang]}
                     </p>
@@ -253,17 +291,17 @@ export const InterpretationSheet = ({ isOpen, onClose, cardData, readingMode = '
 
                   {/* Divider */}
                   <div style={{ display: 'flex', alignItems: 'center', gap: '0.75rem' }}>
-                    <div style={{ flex: 1, height: 1, background: 'linear-gradient(90deg, transparent, rgba(212,175,55,0.3))' }} />
-                    <span style={{ fontFamily: 'Cinzel, serif', fontSize: '8px', letterSpacing: '0.35em', color: 'rgba(212,175,55,0.4)', textTransform: 'uppercase' }}>
+                    <div style={{ flex: 1, height: 1, background: 'linear-gradient(90deg, transparent, var(--border-color))' }} />
+                    <span style={{ fontFamily: 'Cinzel, serif', fontSize: '0.57rem', letterSpacing: '0.35em', color: 'var(--gold-muted)', textTransform: 'uppercase' }}>
                       {t('deepDive')}
                     </span>
-                    <div style={{ flex: 1, height: 1, background: 'linear-gradient(90deg, rgba(212,175,55,0.3), transparent)' }} />
+                    <div style={{ flex: 1, height: 1, background: 'linear-gradient(90deg, var(--border-color), transparent)' }} />
                   </div>
 
                   {/* Deep interpretation */}
                   <p style={{
-                    fontFamily: 'Lora, serif', fontSize: '14px',
-                    color: 'rgba(255,255,255,0.75)', lineHeight: 1.8, paddingBottom: '2rem',
+                    fontFamily: 'Lora, serif', fontSize: '1rem',
+                    color: 'var(--text-secondary)', lineHeight: 1.8, paddingBottom: '2rem',
                   }}>
                     {(cardData.modes?.[readingMode]?.deep ?? cardData.deep)[lang]}
                   </p>

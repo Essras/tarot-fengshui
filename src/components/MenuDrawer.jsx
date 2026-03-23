@@ -1,6 +1,6 @@
 import React, { useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Moon, Sun, Globe, Settings, Sparkles, Star, Check } from 'lucide-react';
+import { Moon, Sun, Monitor, Settings, Sparkles, Star, Check } from 'lucide-react';
 
 const MODES = [
   {
@@ -34,6 +34,10 @@ export const MenuDrawer = ({
   onToggleMajor,
   useReversals,
   onToggleReversals,
+  theme,
+  onSetTheme,
+  fontLevel,
+  onSetFontLevel,
 }) => {
   const dropdownRef = useRef(null);
 
@@ -68,11 +72,11 @@ export const MenuDrawer = ({
             top: '56px',
             right: '1rem',
             zIndex: 100,
-            width: 'min(280px, 88vw)',
-            background: 'linear-gradient(160deg, #0f0a18 0%, #0a0a0a 100%)',
-            border: '1px solid rgba(212,175,55,0.25)',
+            width: 'min(300px, 88vw)',
+            background: 'var(--drawer-bg)',
+            border: '1px solid var(--border-color)',
             borderRadius: '14px',
-            boxShadow: '0 8px 40px rgba(0,0,0,0.7), 0 0 0 1px rgba(212,175,55,0.05)',
+            boxShadow: '0 8px 40px rgba(0,0,0,0.7), 0 0 0 1px var(--border-faint)',
             overflow: 'hidden',
           }}
         >
@@ -104,12 +108,12 @@ export const MenuDrawer = ({
                     gap: '5px',
                     transition: 'all 0.2s',
                     background: lang === l
-                      ? 'linear-gradient(135deg, rgba(212,175,55,0.18), rgba(212,175,55,0.06))'
-                      : 'rgba(255,255,255,0.03)',
+                      ? 'var(--surface-2)'
+                      : 'var(--surface-1)',
                     border: lang === l
-                      ? '1px solid rgba(212,175,55,0.55)'
-                      : '1px solid rgba(255,255,255,0.08)',
-                    color: lang === l ? 'rgb(212,175,55)' : 'rgba(255,255,255,0.35)',
+                      ? '1px solid var(--gold-muted)'
+                      : '1px solid var(--border-faint)',
+                    color: lang === l ? 'var(--gold)' : 'var(--text-muted)',
                   }}
                 >
                   {l === 'th' ? '🇹🇭 ไทย' : '🇺🇸 EN'}
@@ -141,10 +145,10 @@ export const MenuDrawer = ({
                       transition: 'all 0.2s',
                       background: active
                         ? `linear-gradient(135deg, ${mode.color}18, ${mode.color}08)`
-                        : 'rgba(255,255,255,0.02)',
+                        : 'var(--surface-1)',
                       border: active
                         ? `1px solid ${mode.color}55`
-                        : '1px solid rgba(255,255,255,0.06)',
+                        : '1px solid var(--border-faint)',
                     }}
                   >
                     <div style={{
@@ -162,7 +166,7 @@ export const MenuDrawer = ({
                       textTransform: 'uppercase',
                       flex: 1,
                       textAlign: 'left',
-                      color: active ? mode.color : 'rgba(255,255,255,0.55)',
+                      color: active ? mode.color : 'var(--text-secondary)',
                     }}>
                       {mode.label[lang]}
                     </span>
@@ -179,20 +183,20 @@ export const MenuDrawer = ({
 
           {/* ── Deck Settings ── */}
           <Section label={lang === 'th' ? '⊕ การตั้งค่าไพ่' : '⊕ Deck Settings'}>
-            <div style={{ display: 'flex', flexDirection: 'column', gap: '4px' }}>
+            <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
               <button
                 onClick={onToggleMajor}
                 style={{
                   width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                   padding: '8px 10px', borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s',
-                  background: useOnlyMajor ? 'rgba(212,175,55,0.08)' : 'rgba(255,255,255,0.02)',
-                  border: useOnlyMajor ? '1px solid rgba(212,175,55,0.5)' : '1px solid rgba(255,255,255,0.06)',
+                  background: useOnlyMajor ? 'var(--surface-2)' : 'var(--surface-1)',
+                  border: useOnlyMajor ? '1px solid var(--gold-muted)' : '1px solid var(--border-faint)',
                 }}
               >
-                <span style={{ fontSize: '11px', color: useOnlyMajor ? '#D4AF37' : 'rgba(255,255,255,0.6)' }}>
+                <span style={{ fontSize: '11px', color: useOnlyMajor ? 'var(--gold)' : 'var(--text-secondary)' }}>
                   {lang === 'th' ? 'ใช้เฉพาะ Major Arcana (22 ใบ)' : 'Major Arcana Only (22 Cards)'}
                 </span>
-                {useOnlyMajor && <Check size={12} color="#D4AF37" />}
+                {useOnlyMajor && <Check size={12} style={{color: 'var(--gold)'}} />}
               </button>
 
               <button
@@ -200,14 +204,86 @@ export const MenuDrawer = ({
                 style={{
                   width: '100%', display: 'flex', alignItems: 'center', justifyContent: 'space-between',
                   padding: '8px 10px', borderRadius: '8px', cursor: 'pointer', transition: 'all 0.2s',
-                  background: useReversals ? 'rgba(212,175,55,0.08)' : 'rgba(255,255,255,0.02)',
-                  border: useReversals ? '1px solid rgba(212,175,55,0.5)' : '1px solid rgba(255,255,255,0.06)',
+                  background: useReversals ? 'var(--surface-2)' : 'var(--surface-1)',
+                  border: useReversals ? '1px solid var(--gold-muted)' : '1px solid var(--border-faint)',
                 }}
               >
-                <span style={{ fontSize: '11px', color: useReversals ? '#D4AF37' : 'rgba(255,255,255,0.6)' }}>
+                <span style={{ fontSize: '11px', color: useReversals ? 'var(--gold)' : 'var(--text-secondary)' }}>
                   {lang === 'th' ? 'ระบบไพ่ตั้งปกติ / กลับหัว' : 'Upright / Reversed'}
                 </span>
-                {useReversals && <Check size={12} color="#D4AF37" />}
+                {useReversals && <Check size={12} style={{color: 'var(--gold)'}} />}
+              </button>
+            </div>
+          </Section>
+
+          <Divider />
+
+          {/* ── Theme ── */}
+          <Section label={lang === 'th' ? '⊕ ธีม' : '⊕ Theme'}>
+            <div style={{ display: 'flex', gap: '6px' }}>
+              {[
+                { id: 'light', icon: Sun, label: 'Light' },
+                { id: 'dark', icon: Moon, label: 'Dark' },
+                { id: 'system', icon: Monitor, label: 'System' }
+              ].map(tOpts => (
+                <button
+                  key={tOpts.id}
+                  onClick={() => { onSetTheme(tOpts.id); }}
+                  style={{
+                    flex: 1, padding: '8px 4px', borderRadius: '8px',
+                    display: 'flex', flexDirection: 'column', alignItems: 'center', gap: '4px',
+                    cursor: 'pointer', transition: 'all 0.2s',
+                    background: theme === tOpts.id ? 'var(--surface-2)' : 'var(--surface-1)',
+                    border: theme === tOpts.id ? '1px solid var(--gold-muted)' : '1px solid var(--border-faint)',
+                    color: theme === tOpts.id ? 'var(--gold)' : 'var(--text-muted)',
+                  }}
+                >
+                  <tOpts.icon size={14} />
+                  <span style={{ fontSize: '9px', fontFamily: 'Cinzel, serif', textTransform: 'uppercase' }}>{tOpts.label}</span>
+                </button>
+              ))}
+            </div>
+          </Section>
+
+          <Divider />
+
+          {/* ── Text Size ── */}
+          <Section label={lang === 'th' ? '⊕ ขนาดตัวอักษร' : '⊕ Text Size'}>
+            <div style={{ display: 'flex', alignItems: 'center', gap: '10px', padding: '4px 0' }}>
+              <button
+                onClick={() => onSetFontLevel(Math.max(1, fontLevel - 1))}
+                style={{
+                  width: 32, height: 32, borderRadius: '8px', flexShrink: 0,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  background: 'var(--surface-1)', border: '1px solid var(--border-faint)',
+                  color: fontLevel > 1 ? 'var(--text-primary)' : 'var(--text-muted)',
+                  cursor: fontLevel > 1 ? 'pointer' : 'not-allowed',
+                }}
+              >
+                <span style={{ fontSize: '13px', fontWeight: 'bold', fontFamily: 'Lora, serif' }}>A-</span>
+              </button>
+              
+              <div style={{ flex: 1, display: 'flex', justifyContent: 'space-between', padding: '0 8px' }}>
+                {[1, 2, 3, 4, 5].map(step => (
+                  <div key={step} style={{
+                    width: 6, height: 6, borderRadius: '50%',
+                    background: step <= fontLevel ? 'var(--gold)' : 'var(--surface-2)',
+                    transition: 'all 0.2s'
+                  }} />
+                ))}
+              </div>
+
+              <button
+                onClick={() => onSetFontLevel(Math.min(5, fontLevel + 1))}
+                style={{
+                  width: 32, height: 32, borderRadius: '8px', flexShrink: 0,
+                  display: 'flex', alignItems: 'center', justifyContent: 'center',
+                  background: 'var(--surface-1)', border: '1px solid var(--border-faint)',
+                  color: fontLevel < 5 ? 'var(--text-primary)' : 'var(--text-muted)',
+                  cursor: fontLevel < 5 ? 'pointer' : 'not-allowed',
+                }}
+              >
+                <span style={{ fontSize: '16px', fontWeight: 'bold', fontFamily: 'Lora, serif' }}>A+</span>
               </button>
             </div>
           </Section>
@@ -216,13 +292,13 @@ export const MenuDrawer = ({
           <div style={{
             padding: '8px 14px',
             textAlign: 'center',
-            borderTop: '1px solid rgba(212,175,55,0.06)',
+            borderTop: '1px solid var(--border-faint)',
           }}>
             <span style={{
               fontFamily: 'Cinzel, serif',
               fontSize: '7px',
               letterSpacing: '0.25em',
-              color: 'rgba(255,255,255,0.12)',
+              color: 'var(--text-muted)',
               textTransform: 'uppercase',
             }}>
               Ancient Oracle v1.0
@@ -240,7 +316,8 @@ const Section = ({ label, children }) => (
       fontFamily: 'Cinzel, serif',
       fontSize: '8px',
       letterSpacing: '0.3em',
-      color: 'rgba(212,175,55,0.4)',
+      color: 'var(--gold)',
+      opacity: 0.6,
       textTransform: 'uppercase',
       marginBottom: '8px',
     }}>
@@ -254,6 +331,7 @@ const Divider = () => (
   <div style={{
     height: '1px',
     margin: '0 12px',
-    background: 'linear-gradient(90deg, transparent, rgba(212,175,55,0.1), transparent)',
+    background: 'linear-gradient(90deg, transparent, var(--border-color), transparent)',
+    opacity: 0.5,
   }} />
 );

@@ -29,6 +29,49 @@
   --gold-muted: rgba(212, 175, 55, 0.5);
   --crimson: #8B1A1A;
   --deep-teal: #0D3D3D;
+  
+  --bg-gradient: radial-gradient(ellipse at 50% 0%, #12090e 0%, #0A0A0A 60%);
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.7);
+  --text-muted: rgba(255, 255, 255, 0.35);
+  --border-color: rgba(212, 175, 55, 0.25);
+  --border-faint: rgba(255, 255, 255, 0.08);
+  --surface-1: rgba(255, 255, 255, 0.03);
+  --surface-2: rgba(255, 255, 255, 0.08);
+  --sheet-bg: linear-gradient(180deg, #111 0%, #0A0A0A 100%);
+  --drawer-bg: linear-gradient(160deg, #0f0a18 0%, #0a0a0a 100%);
+
+  /* Button Variables */
+  --btn-bg: linear-gradient(135deg, rgba(10,10,10,0.95) 0%, rgba(25,20,10,0.95) 100%);
+  --btn-border: rgba(212,175,55,0.35);
+  --btn-shadow: 0 4px 20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.1);
+  --btn-hover-border: rgba(212,175,55,0.65);
+  --btn-hover-shadow: 0 0 25px rgba(212,175,55,0.18), 0 6px 25px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.15);
+}
+
+[data-theme='light'] {
+  --obsidian: #E6E2DB; /* Muted, organic vintage paper */
+  --obsidian-2: #D8D4CD;
+  --gold: #A07400; /* Richer, slightly darker gold for premium feel */
+  --gold-muted: rgba(160, 116, 0, 0.5);
+  
+  --bg-gradient: radial-gradient(ellipse at 50% 0%, #F4F0EA 0%, #E6E2DB 70%);
+  --text-primary: #2C241B; /* Dark brown-black for high contrast */
+  --text-secondary: rgba(44, 36, 27, 0.75);
+  --text-muted: rgba(44, 36, 27, 0.5);
+  --border-color: rgba(160, 116, 0, 0.35);
+  --border-faint: rgba(44, 36, 27, 0.1);
+  --surface-1: rgba(255, 255, 255, 0.25);
+  --surface-2: rgba(255, 255, 255, 0.5);
+  --sheet-bg: linear-gradient(180deg, #F9F7F4 0%, #E6E2DB 100%);
+  --drawer-bg: linear-gradient(160deg, #F9F7F4 0%, #E6E2DB 100%);
+
+  /* Button Variables - Light Mode */
+  --btn-bg: linear-gradient(135deg, rgba(255,253,249,0.95) 0%, rgba(230,226,219,0.95) 100%);
+  --btn-border: rgba(160, 116, 0, 0.4);
+  --btn-shadow: 0 4px 15px rgba(0,0,0,0.08), inset 0 1px 0 rgba(255,255,255,0.5);
+  --btn-hover-border: rgba(160, 116, 0, 0.8);
+  --btn-hover-shadow: 0 0 20px rgba(160, 116, 0, 0.2), 0 6px 15px rgba(0,0,0,0.1), inset 0 1px 0 rgba(255,255,255,0.6);
 }
 
 /* ============================================
@@ -42,12 +85,13 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: var(--obsidian);
-  color: white;
+  color: var(--text-primary);
   min-height: 100dvh;
   touch-action: manipulation;
   font-family: 'Lora', serif;
   overflow-x: hidden;
   overflow-y: auto;
+  transition: background-color 0.3s ease, color 0.3s ease;
 }
 
 #root {
@@ -140,9 +184,10 @@ h1, h2, h3, h4, h5, h6 {
    ============================================ */
 .mystical-gold-btn {
   @apply relative overflow-hidden transition-all duration-500 active:scale-95 select-none;
-  background: linear-gradient(135deg, rgba(10,10,10,0.95) 0%, rgba(25,20,10,0.95) 100%);
-  border: 1px solid rgba(212,175,55,0.35);
-  box-shadow: 0 4px 20px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.1);
+  background: var(--btn-bg);
+  border: 1px solid var(--btn-border);
+  box-shadow: var(--btn-shadow);
+  color: var(--gold);
 }
 
 .mystical-gold-btn::before {
@@ -153,8 +198,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .mystical-gold-btn:hover {
-  border-color: rgba(212,175,55,0.65);
-  box-shadow: 0 0 25px rgba(212,175,55,0.18), 0 6px 25px rgba(0,0,0,0.6), inset 0 1px 0 rgba(212,175,55,0.15);
+  border-color: var(--btn-hover-border);
+  box-shadow: var(--btn-hover-shadow);
 }
 
 .mystical-gold-btn:hover::before {

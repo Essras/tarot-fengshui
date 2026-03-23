@@ -58,10 +58,10 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
               inset: 0,
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
-              border: '2px solid rgba(212,175,55,0.65)',
+              border: '2px solid var(--gold-muted)',
               borderRadius: '8px',
               overflow: 'hidden',
-              boxShadow: '0 8px 32px rgba(0,0,0,0.7)',
+              boxShadow: '0 8px 32px var(--shadow-color)',
             }}
           >
             <TarotCardBack />
@@ -84,7 +84,7 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
                   fontFamily: 'Cinzel, serif',
                   fontSize: '8px',
                   letterSpacing: '0.2em',
-                  color: 'rgba(212,175,55,0.7)',
+                  color: 'var(--gold-muted)',
                   textTransform: 'uppercase',
                 }}>
                   Tap
@@ -101,11 +101,11 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
               backfaceVisibility: 'hidden',
               WebkitBackfaceVisibility: 'hidden',
               transform: `rotateY(180deg) ${cardData.isReversed ? 'rotateZ(180deg)' : ''}`,
-              border: '2px solid rgba(212,175,55,0.65)',
+              border: '2px solid var(--gold-muted)',
               borderRadius: '8px',
               overflow: 'hidden',
               background: 'linear-gradient(160deg, #0f0f0f 0%, #0A0A0A 60%, #111008 100%)',
-              boxShadow: '0 0 30px rgba(212,175,55,0.25), 0 0 60px rgba(212,175,55,0.1), 0 20px 60px rgba(0,0,0,0.8)',
+              boxShadow: '0 0 30px var(--border-color), 0 0 60px var(--border-faint), 0 20px 60px var(--shadow-color)',
             }}
           >
             {/* Card art — full bleed */}
@@ -117,9 +117,9 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
                 }}>
                   <svg viewBox="0 0 120 160" style={{ width: '75%', height: '75%', opacity: 0.4 }}>
                     <polygon points="60,10 90,50 110,90 60,150 10,90 30,50"
-                      fill="none" stroke="rgba(212,175,55,0.6)" strokeWidth="1" />
-                    <circle cx="60" cy="80" r="30" fill="none" stroke="rgba(212,175,55,0.4)" strokeWidth="0.8" />
-                    <circle cx="60" cy="80" r="10" fill="rgba(212,175,55,0.2)" stroke="rgba(212,175,55,0.6)" strokeWidth="1" />
+                      fill="none" stroke="var(--gold-muted)" strokeWidth="1" />
+                    <circle cx="60" cy="80" r="30" fill="none" stroke="var(--border-color)" strokeWidth="0.8" />
+                    <circle cx="60" cy="80" r="10" fill="var(--border-color)" stroke="var(--gold-muted)" strokeWidth="1" />
                   </svg>
                 </div>
               ) : (
@@ -140,7 +140,7 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
             {/* Inner gold border inset */}
             <div style={{
               position: 'absolute', inset: '4px',
-              border: '1px solid rgba(212,175,55,0.15)',
+              border: '1px solid var(--border-color)',
               borderRadius: '4px',
               pointerEvents: 'none',
               zIndex: 10,
@@ -155,7 +155,7 @@ export const Card = ({ cardData, isRevealed, onReveal, lang = 'th', compact = fa
               <span style={{
                 fontFamily: 'Cinzel, serif',
                 letterSpacing: '0.35em',
-                color: 'rgba(212,175,55,0.8)',
+                color: 'var(--gold)',
                 fontSize: compact ? '7px' : '9px',
               }}>
                 {cardData.id === 0 ? '0' : getRomanNumeral(cardData.id)}

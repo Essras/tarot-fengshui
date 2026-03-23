@@ -16,7 +16,7 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
             position: 'fixed',
             inset: 0,
             zIndex: 100,
-            background: 'linear-gradient(180deg, #12090e 0%, #0a0a0a 100%)',
+            background: 'var(--bg-gradient)',
             display: 'flex',
             flexDirection: 'column',
           }}
@@ -25,23 +25,23 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
           <div style={{
             display: 'flex', alignItems: 'center', justifyContent: 'space-between',
             padding: '1rem 1.25rem',
-            borderBottom: '1px solid rgba(212,175,55,0.15)',
-            background: 'rgba(0,0,0,0.5)',
+            borderBottom: '1px solid var(--border-color)',
+            background: 'color-mix(in srgb, var(--surface-1) 85%, transparent)',
             backdropFilter: 'blur(10px)',
             position: 'sticky', top: 0, zIndex: 10
           }}>
             <h2 style={{
               fontFamily: 'Cinzel, serif',
               fontSize: '1.25rem',
-              color: 'rgb(212,175,55)',
+              color: 'var(--gold)',
               letterSpacing: '0.1em'
             }}>
               {lang === 'th' ? 'เลือกรูปแบบการทำนาย' : 'New Reading'}
             </h2>
             <button
               onClick={onClose}
-              className="w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-white/5 active:bg-white/10"
-              style={{ color: 'rgba(212,175,55,0.8)' }}
+              className="w-10 h-10 flex items-center justify-center rounded-full transition-colors hover:bg-black/5 active:bg-black/10 dark:hover:bg-white/5 dark:active:bg-white/10"
+              style={{ color: 'var(--gold)' }}
             >
               <X size={24} />
             </button>
@@ -59,7 +59,7 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
             <p style={{
               fontFamily: 'Lora, serif',
               fontStyle: 'italic',
-              color: 'rgba(255,255,255,0.6)',
+              color: 'var(--text-secondary)',
               fontSize: '0.9rem',
               textAlign: 'center',
               marginBottom: '-0.5rem'
@@ -71,17 +71,17 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
               <div key={idx}>
                 {/* Section Header */}
                 <div style={{
-                  background: 'rgba(212,175,55,0.1)',
+                  background: 'var(--surface-2)',
                   padding: '0.5rem 1rem',
                   borderRadius: '4px',
                   marginBottom: '0.5rem',
-                  borderLeft: '2px solid rgba(212,175,55,0.6)'
+                  borderLeft: '2px solid var(--gold-muted)'
                 }}>
                   <h3 style={{
                     fontFamily: 'Cinzel, serif',
                     fontSize: '0.85rem',
                     letterSpacing: '0.15em',
-                    color: 'rgba(255,255,255,0.9)',
+                    color: 'var(--text-primary)',
                     textTransform: 'uppercase'
                   }}>
                     {section.category[lang]}
@@ -96,18 +96,18 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
                       onClick={() => onSelectSpread(spread)}
                       className="group flex flex-col items-start w-full text-left p-4 rounded-lg transition-all"
                       style={{
-                        background: 'rgba(255,255,255,0.02)',
-                        border: '1px solid rgba(255,255,255,0.05)',
-                        borderBottom: '1px solid rgba(212,175,55,0.1)',
+                        background: 'var(--surface-1)',
+                        border: '1px solid var(--border-faint)',
+                        borderBottom: '1px solid var(--border-color)',
                       }}
-                      onMouseEnter={e => { e.currentTarget.style.background = 'rgba(212,175,55,0.05)'; }}
-                      onMouseLeave={e => { e.currentTarget.style.background = 'rgba(255,255,255,0.02)'; }}
+                      onMouseEnter={e => { e.currentTarget.style.background = 'var(--surface-2)'; }}
+                      onMouseLeave={e => { e.currentTarget.style.background = 'var(--surface-1)'; }}
                     >
                       <div className="flex items-center justify-between w-full mb-1">
                         <span style={{
                           fontFamily: 'Cinzel, serif',
                           fontSize: '1.1rem',
-                          color: 'rgb(212,175,55)',
+                          color: 'var(--gold)',
                           fontWeight: 'bold',
                         }}>
                           {spread.name[lang]}
@@ -115,24 +115,24 @@ export const SpreadSelectionDrawer = ({ isOpen, onClose, onSelectSpread, lang })
                         <div className="flex items-center gap-2">
                           <span style={{
                             fontSize: '0.7rem',
-                            color: 'rgba(255,255,255,0.4)',
+                            color: 'var(--text-muted)',
                             fontFamily: 'Lora, serif',
-                            border: '1px solid rgba(255,255,255,0.2)',
+                            border: '1px solid var(--border-color)',
                             padding: '2px 6px',
                             borderRadius: '12px'
                           }}>
                             {spread.cardCount} {lang === 'th' ? 'ใบ' : 'cards'}
                           </span>
-                          <ChevronRight size={16} className="text-gold/50 group-hover:text-gold transition-colors" />
+                          <ChevronRight size={16} style={{color: 'var(--gold-muted)'}} />
                         </div>
                       </div>
                       
                       <div className="flex items-start gap-2 mt-1">
-                        <Info size={14} className="text-white/30 mt-0.5 shrink-0" />
+                        <Info size={14} style={{color: 'var(--text-muted)', marginTop: '2px', flexShrink: 0}} />
                         <p style={{
                           fontFamily: 'Lora, serif',
                           fontSize: '0.85rem',
-                          color: 'rgba(255,255,255,0.5)',
+                          color: 'var(--text-secondary)',
                           lineHeight: 1.4
                         }}>
                           {spread.description[lang]}
